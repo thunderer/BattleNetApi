@@ -1,0 +1,82 @@
+{
+    "slug": "enchantress",
+    "name": "Enchantress",
+    "realName": "d3.follower.enchantress.realName",
+    "portrait": "enchantress",
+    "skills": {
+        "active": [{
+            "slug": "charm",
+            "name": "Charm",
+            "icon": "enchantress_charm",
+            "level": 15,
+            "tooltipUrl": "skill/enchantress/charm",
+            "description": "Cooldown: 18 seconds\r\n\r\nCharms an enemy to fight for you for 8 seconds.",
+            "simpleDescription": "Cooldown: 18 seconds\r\n\r\nTemporarily Charms an enemy to fight for you.",
+            "skillCalcId": "a"
+        }, {
+            "slug": "forceful-push",
+            "name": "Forceful Push",
+            "icon": "enchantress_forcefulpush",
+            "level": 15,
+            "tooltipUrl": "skill/enchantress/forceful-push",
+            "description": "Cooldown: 5 seconds\r\n\r\nSummon an Arcane explosion 8 yards around an enemy, dealing 410% weapon damage as Arcane and knocking back all monsters caught within it.",
+            "simpleDescription": "Cooldown: 5 seconds\r\n\r\nCreates an explosion that deals massive damage and knocks back enemies.",
+            "skillCalcId": "Z"
+        }, {
+            "slug": "missile-ward",
+            "name": "Missile Ward",
+            "icon": "enchantress_missileward",
+            "level": 20,
+            "tooltipUrl": "skill/enchantress/missile-ward",
+            "description": "Buffs you and the Enchantress, reducing damage from ranged attacks by 6%.",
+            "simpleDescription": "Reduces damage from ranged attacks for you and the Enchantress.",
+            "skillCalcId": "b"
+        }, {
+            "slug": "powered-armor",
+            "name": "Powered Armor",
+            "icon": "enchantress_poweredarmor",
+            "level": 20,
+            "tooltipUrl": "skill/enchantress/powered-armor",
+            "description": "Buffs you and the Enchantress, increasing Armor by 3% and slowing melee attackers by 60% for 1 seconds.",
+            "simpleDescription": "Increases Armor and slows melee attackers for you and the Enchantress.",
+            "skillCalcId": "Y"
+        }, {
+            "slug": "disorient",
+            "name": "Disorient",
+            "icon": "enchantress_disorient",
+            "level": 25,
+            "tooltipUrl": "skill/enchantress/disorient",
+            "description": "Cooldown: 6 seconds\r\n\r\nCast a flash of light in an area, causing enemies to be disoriented for 2 seconds. ",
+            "simpleDescription": "Cooldown: 6 seconds\r\n\r\nDisorients enemies for a short time.",
+            "skillCalcId": "c"
+        }, {
+            "slug": "erosion",
+            "name": "Erosion",
+            "icon": "enchantress_scorchedearth",
+            "level": 25,
+            "tooltipUrl": "skill/enchantress/erosion",
+            "description": "Cooldown: 15 seconds\r\n\r\nConjures a pool of energy that deals 330% weapon damage as Arcane over 5 seconds. Affected enemies will also take 3% increased damage.",
+            "simpleDescription": "Cooldown: 15 seconds\r\n\r\nConjures a pool of energy that deals damage and causes affected enemies to take additional damage.",
+            "skillCalcId": "X"
+        }, {
+            "slug": "focused-mind",
+            "name": "Focused Mind",
+            "icon": "enchantress_focusedmind",
+            "level": 30,
+            "tooltipUrl": "skill/enchantress/focused-mind",
+            "description": "A 40 yard aura that increases attack speed for you and the Enchantress by 3%.",
+            "simpleDescription": "An aura that increases attack speed for you and the Enchantress.",
+            "skillCalcId": "d"
+        }, {
+            "slug": "mass-control",
+            "name": "Mass Control",
+            "icon": "enchantress_masscharm",
+            "level": 30,
+            "tooltipUrl": "skill/enchantress/mass-control",
+            "description": "Cooldown: 18 seconds\r\n\r\nLob a bulb of magical energy that hexes enemies in an area into chickens for 5 seconds.",
+            "simpleDescription": "Cooldown: 18 seconds\r\n\r\nHexes a nearby group of enemies.",
+            "skillCalcId": "W"
+        }],
+        "passive": []
+    }
+}

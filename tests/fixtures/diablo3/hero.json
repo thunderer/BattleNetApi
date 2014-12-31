@@ -1,0 +1,774 @@
+{
+    "id": 438767,
+    "name": "Thunderer",
+    "class": "wizard",
+    "gender": 0,
+    "level": 70,
+    "paragonLevel": 281,
+    "hardcore": false,
+    "seasonal": false,
+    "seasonCreated": 0,
+    "skills": {
+        "active": [{
+            "skill": {
+                "slug": "spectral-blade",
+                "name": "Spectral Blade",
+                "icon": "wizard_spectralblade",
+                "level": 11,
+                "categorySlug": "primary",
+                "tooltipUrl": "skill/wizard/spectral-blade",
+                "description": "This is a Signature spell. Signature spells are free to cast.\r\n\r\nSummon a spectral blade that strikes all enemies up to 15 yards in front of you for 168% weapon damage as Arcane.",
+                "simpleDescription": "Signature Spell\r\n\r\nSummon mystic blades that slice through enemies.",
+                "skillCalcId": "W"
+            },
+            "rune": {
+                "slug": "spectral-blade-a",
+                "type": "a",
+                "name": "Flame Blades",
+                "level": 19,
+                "description": "Each enemy hit increases the damage of your Fire spells by 1% for 10 seconds.",
+                "simpleDescription": "Each enemy hit increases the damage of your Fire spells for a short duration.",
+                "tooltipParams": "rune/spectral-blade/a",
+                "skillCalcId": "a",
+                "order": 0
+            }
+        }, {
+            "skill": {
+                "slug": "disintegrate",
+                "name": "Disintegrate",
+                "icon": "wizard_disintegrate",
+                "level": 21,
+                "categorySlug": "secondary",
+                "tooltipUrl": "skill/wizard/disintegrate",
+                "description": "Cost: 18 Arcane Power\r\n\r\nChannel a beam of pure energy, dealing 390% weapon damage as Arcane.\r\n\r\nDisintegrate damage is increased by 250% weapon damage every second, up to a maximum total of 890% weapon damage as Arcane.",
+                "simpleDescription": "Cost: 18 Arcane Power\r\n\r\nChannel a beam of pure energy that pierces through all enemies.",
+                "skillCalcId": "R"
+            },
+            "rune": {
+                "slug": "disintegrate-b",
+                "type": "b",
+                "name": "Convergence",
+                "level": 26,
+                "description": "Increase the width of the beam allowing it to hit more enemies.\r\n\r\nDisintegrate's damage turns into Fire.",
+                "simpleDescription": "Increase the width of the beam.\r\n\r\nDisintegrate's damage turns into Fire.",
+                "tooltipParams": "rune/disintegrate/b",
+                "skillCalcId": "a",
+                "order": 0
+            }
+        }, {
+            "skill": {
+                "slug": "teleport",
+                "name": "Teleport",
+                "icon": "wizard_teleport",
+                "level": 22,
+                "categorySlug": "defensive",
+                "tooltipUrl": "skill/wizard/teleport",
+                "description": "Cooldown: 11 seconds\r\n\r\nTeleport through the ether to the selected location up to 50 yards away.",
+                "simpleDescription": "Cooldown: 11 seconds\r\n\r\nTeleport instantly to another location.",
+                "skillCalcId": "Q"
+            },
+            "rune": {
+                "slug": "teleport-b",
+                "type": "b",
+                "name": "Fracture",
+                "level": 43,
+                "description": "Summon 2 decoys for 6 seconds after teleporting.",
+                "simpleDescription": "Summon decoys of yourself after teleporting.",
+                "tooltipParams": "rune/teleport/b",
+                "skillCalcId": "Y",
+                "order": 3
+            }
+        }, {
+            "skill": {
+                "slug": "hydra",
+                "name": "Hydra",
+                "icon": "wizard_hydra",
+                "level": 21,
+                "categorySlug": "force",
+                "tooltipUrl": "skill/wizard/hydra",
+                "description": "Cost: 15 Arcane Power\r\n\r\nSummon a multi-headed Hydra for 15 seconds that attacks enemies with bolts of fire dealing 195% weapon damage as Fire.\r\n\r\nOnly one Hydra may be active at a time.",
+                "simpleDescription": "Cost: 15 Arcane Power\r\n\r\nSummon a magical Hydra that attacks enemies with bursts of fire.",
+                "skillCalcId": "i"
+            },
+            "rune": {
+                "slug": "hydra-c",
+                "type": "c",
+                "name": "Blazing Hydra",
+                "level": 38,
+                "description": "Summon a Blazing Hydra that spits bolts of Fire that burn enemies near the point of impact, dealing 185% weapon damage as Fire over 3 seconds. Burn damage can stack multiple times on the same enemy.",
+                "simpleDescription": "Summon a Blazing Hydra that burns enemies.",
+                "tooltipParams": "rune/hydra/c",
+                "skillCalcId": "b",
+                "order": 2
+            }
+        }, {
+            "skill": {
+                "slug": "black-hole",
+                "name": "Black Hole",
+                "icon": "x1_wizard_wormhole",
+                "level": 61,
+                "categorySlug": "mastery",
+                "tooltipUrl": "skill/wizard/black-hole",
+                "description": "Cost: 20 Arcane Power\r\nCooldown: 12 seconds\r\n\r\nConjure a Black Hole at the target location that draws enemies to it and deals 700% weapon damage as Arcane over 2 seconds to all enemies within 15 yards.",
+                "simpleDescription": "Cost: 20 Arcane Power\r\nCooldown: 12 seconds\r\n\r\nConjure a Black Hole that draws enemies to it and deals damage.",
+                "skillCalcId": "N"
+            },
+            "rune": {
+                "slug": "black-hole-a",
+                "type": "a",
+                "name": "Supermassive",
+                "level": 62,
+                "description": "Increases the Black Hole radius to 20 yards and damage to 1290% weapon damage as Lightning over 2 seconds.",
+                "simpleDescription": "Increases the radius and damage of Black Hole.\r\n\r\nBlack Hole's damage turns into Lightning.",
+                "tooltipParams": "rune/black-hole/a",
+                "skillCalcId": "a",
+                "order": 0
+            }
+        }, {
+            "skill": {
+                "slug": "blizzard",
+                "name": "Blizzard",
+                "icon": "wizard_blizzard",
+                "level": 27,
+                "categorySlug": "force",
+                "tooltipUrl": "skill/wizard/blizzard",
+                "description": "Cost: 40 Arcane Power\r\n\r\nCall down shards of ice that deal 1075% weapon damage as Cold over 6 seconds to enemies in a 12 yard radius. Multiple casts in the same area from the same caster do not stack.",
+                "simpleDescription": "Cost: 40 Arcane Power\r\n\r\nUnleash a Blizzard that damages and Slows enemies caught in its grasp.",
+                "skillCalcId": "l"
+            },
+            "rune": {
+                "slug": "blizzard-b",
+                "type": "b",
+                "name": "Apocalypse",
+                "level": 54,
+                "description": "Increase the area of effect of Blizzard to a 30 yard radius.",
+                "simpleDescription": "Increase the area of effect of Blizzard.",
+                "tooltipParams": "rune/blizzard/b",
+                "skillCalcId": "Y",
+                "order": 3
+            }
+        }],
+        "passive": [{
+            "skill": {
+                "slug": "astral-presence",
+                "name": "Astral Presence",
+                "icon": "wizard_passive_astralpresence",
+                "level": 24,
+                "tooltipUrl": "skill/wizard/astral-presence",
+                "description": "Increase your maximum Arcane Power by 20 and Arcane Power regeneration by 2.5 per second.",
+                "flavor": "\"Feel the power in the veil that surrounds us—a thunder cloud ready to burst... a volcano about to erupt. Harness it, and you will be invincible.\" —Adria",
+                "skillCalcId": "X"
+            }
+        }, {
+            "skill": {
+                "slug": "glass-cannon",
+                "name": "Glass Cannon",
+                "icon": "wizard_passive_glasscannon",
+                "level": 16,
+                "tooltipUrl": "skill/wizard/glass-cannon",
+                "description": "Increase all damage done by 15%, but decrease Armor and resistances by 10%.",
+                "flavor": "\"How will I survive? I don't intend to get hit in the first place. If you even touch me, it's because I allowed it.\" —Maloth, renegade wizard",
+                "skillCalcId": "Y"
+            }
+        }, {
+            "skill": {
+                "slug": "temporal-flux",
+                "name": "Temporal Flux",
+                "icon": "wizard_passive_temporalflux",
+                "level": 45,
+                "tooltipUrl": "skill/wizard/temporal-flux",
+                "description": "Enemies that take Arcane damage are slowed by 80% for 2 seconds.",
+                "flavor": "\"The energies of time and arcane power are jealous consorts. If you caress the one, you neglect the other at great risk.\" —Ennead Sage Resko",
+                "skillCalcId": "U"
+            }
+        }, {
+            "skill": {
+                "slug": "unstable-anomaly",
+                "name": "Unstable Anomaly",
+                "icon": "wizard_passive_unstableanomaly",
+                "level": 60,
+                "tooltipUrl": "skill/wizard/unstable-anomaly",
+                "description": "When you receive fatal damage, you heal to 45% of your maximum Life and release a shockwave that knocks enemies back and slows them by 60% for 3 seconds. \r\n\r\nThis effect may occur once every 60 seconds.",
+                "flavor": "\"It takes perfect concentration for a Wizard to dance on the edge of infinity. Never be the one to break that concentration.\" —One-Eye Whipple",
+                "skillCalcId": "h"
+            }
+        }]
+    },
+    "items": {
+        "head": {
+            "id": "Unique_Helm_010_x1",
+            "name": "Tal Rasha's Guise of Wisdom",
+            "icon": "unique_helm_010_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CnII-O-j0w8SBwgEFZRz_BMdP_IJ2B04ssDVHZsGAMsdZiMGUB3zcAetHeYV2w0wiwI4mANAAFASWARgnANqKwoMCAAQsv-Fr4GAgMAzEhsIivT_ygISBwgEFWv1i18wjwI4AEABWASQAQCAAUa1AX_5Tl0YqM7jvwJQBFgAoAHZhNenC6ABqM7jvwKgAZLm6-cJ",
+            "craftedBy": []
+        },
+        "torso": {
+            "id": "Unique_Chest_014_x1",
+            "name": "Tal Rasha's Relentless Pursuit",
+            "icon": "unique_chest_014_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CssBCO3axpUEEgcIBBWJeX1OHazTmTkd85Vl-h1-dlWhHUNORFEdm4b24h1zIwZQMIsCOOECQABQElgEYOUCaisKDAgAEJ3Trs6BgICAIxIbCN_QuKIDEgcIBBXWXbZ6MIsCOABAAVgEkAEAaisKDAgAEKPTrs6BgICAIxIbCK7v980GEgcIBBXWXbZ6MIsCOABAAVgEkAEAaioKDAgAEKbTrs6BgICAIxIaCIrVh2cSBwgEFdZdtnowiwI4AEABWASQAQCAAUa1ATEiGWAYkubr5wlQBFgAoAHZhNenC6ABqM7jvwKgAZLm6-cJ",
+            "craftedBy": []
+        },
+        "feet": {
+            "id": "Unique_Boots_Set_06_x1",
+            "name": "Firebird's Tarsi",
+            "icon": "unique_boots_set_06_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CkQIoO6EJBIHCAQVVaQ20B2bhvbiHUNORFEdII03VB2izxRWHXKOHSEdOLLA1TCLAjiQAkAAUBJYBGCUAoABRrUBoEWbfxjV7sr8BVAEWACgAdfO9uEOoAHV7sr8BaAB_I-Jqw8",
+            "craftedBy": []
+        },
+        "hands": {
+            "id": "Unique_Gloves_Set_06_x1",
+            "name": "Firebird's Talons",
+            "icon": "unique_gloves_set_06_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CkUIw-PfrwMSBwgEFf4jsXod89VHtB2svNNTHX5Wsy4dmKeOwB1-dlWhHfNwB60wiwI4hwNAAFASWARgiwOAAUa1AclbkqQY_I-Jqw9QBFgAoAHXzvbhDqAB1e7K_AWgAfyPiasP",
+            "craftedBy": []
+        },
+        "shoulders": {
+            "id": "Unique_Shoulder_Set_06_x1",
+            "name": "Firebird's Pinions",
+            "icon": "unique_shoulder_set_06_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CkUIvZyD1goSBwgEFVQs4YkdP_IJ2B1_jofMHSCNN1QdQ05EUR10RaeJHZuG9uIwiwI48QJAAFASWARg9QKAAUa1AdL4yBUY18724Q5QBFgAoAHXzvbhDqAB1e7K_AWgAfyPiasP",
+            "craftedBy": []
+        },
+        "legs": {
+            "id": "Unique_Pants_013_x1",
+            "name": "Blackthorne's Jousting Mail",
+            "icon": "unique_pants_013_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/Cp4BCOzZ7u0NEgcIBBWXbOnRHXKOHSEdf46HzB2izxRWHZzCk_cdm4b24h2PkMpQMIsCOKQCQABQElgEYKgCaioKDAgAENTAhOCBgIDgIhIaCPug6AcSBwgEFdddtnowiwI4AEABWASQAQBqKwoMCAAQ7bCXloKAgIAqEhsI5_efgA4SBwgEFdddtnowjwI4AEABWASQAQCAAUa1AZ-S1aUY0c204QVQBFgAoAHRzbThBaABtJD-mQ0",
+            "craftedBy": []
+        },
+        "bracers": {
+            "id": "Unique_Bracer_004_x1",
+            "name": "Steady Strikers",
+            "icon": "unique_bracer_004_x1_demonhunter_male",
+            "displayColor": "orange",
+            "tooltipParams": "item/CkUI2t3vjAcSBwgEFQA1BzcdAWAtsR1yjh0hHeYV2w0dQ05EUR2bhvbiHX52VaEwiwI4ogJAAFASWARgpgKAAUa1AdssyssYgNS58AZQBFgA",
+            "craftedBy": []
+        },
+        "mainHand": {
+            "id": "Unique_Dagger_010_x1_210",
+            "name": "Wizardspike",
+            "icon": "unique_dagger_010_x1_210_demonhunter_male",
+            "displayColor": "orange",
+            "tooltipParams": "item/Cm0I7vL9zgwSBwgEFcp-HfwdseTqER2bBgDLHWYjBlAd83AHrR07yaFiMIsCOO4CQABQElgEYPICaisKDAgAEKG1sc6BgICAIxIbCJHrhoQBEgcIBBUjlq6YMI8COABAAVgEkAEAgAFGtQG-gk-yGOuElD5QBFgA",
+            "craftedBy": []
+        },
+        "offHand": {
+            "id": "Unique_Orb_012_x1",
+            "name": "Tal Rasha's Unwavering Glare",
+            "icon": "unique_orb_012_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CogBCO6_g8kOEgcIBBXTHoWlHaEp3AUdTLTSZR3ANBlyHWc-7OQd83AHrR1-VrMuMIsCOLYDQABQElgEYLoDaisKDAgAEPH904yCgICgMhIbCPnnvKYIEgcIBBXVXbZ6MI8COABAAVgEkAEAgAFGpQHANBlyrQFmIwZQtQHaw45xuAGu3vbSB8ABCxjZhNenC1AEWACgAdmE16cLoAGozuO_AqABkubr5wk",
+            "craftedBy": []
+        },
+        "waist": {
+            "id": "Unique_Belt_015_x1",
+            "name": "Blackthorne's Notched Belt",
+            "icon": "unique_belt_015_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/CkUIz_uD_wcSBwgEFRrEn2kdcYt38B07J28kHWc-7OQdP_IJ2B2bhvbiHUNORFEwiwI4owJAAFASWARgpwKAAUa1AcCnQtQYtJD-mQ1QBFgAoAHRzbThBaABtJD-mQ0",
+            "craftedBy": []
+        },
+        "rightFinger": {
+            "id": "Unique_Ring_107_x1",
+            "name": "Ring of Royal Grandeur",
+            "icon": "unique_ring_107_x1_demonhunter_male",
+            "displayColor": "orange",
+            "tooltipParams": "item/CkAI-eTzyQsSBwgEFSWYersdS7X5Sx10RaeJHdKfnkQdfnZVoR2bhvbiMIsCOIUCQABQElgEYIkCgAFGtQE2VV1EGLWfq8gIUARYAA",
+            "craftedBy": []
+        },
+        "leftFinger": {
+            "id": "Unique_Ring_004_x1",
+            "name": "Puzzle Ring",
+            "icon": "unique_ring_004_x1_demonhunter_male",
+            "displayColor": "orange",
+            "tooltipParams": "item/CkAIkPjnugYSBwgEFWHKI7kdi_F6Qh3mFdsNHX52VaEdP_IJ2B2bhvbiMIsCOIgCQABQElgEYIwCgAFGtQE2VV1EGL3W4e0IUARYAA",
+            "craftedBy": []
+        },
+        "neck": {
+            "id": "Unique_Amulet_010_x1",
+            "name": "Squirt's Necklace",
+            "icon": "unique_amulet_010_x1_demonhunter_male",
+            "displayColor": "orange",
+            "tooltipParams": "item/CkUI-72E5wgSBwgEFZYsGFsdS7X5Sx1-VrMuHTid5AQdsMEJch3zcAetHZc_ndowiwI4pwJAAFASWARgqwKAAUa1AbDFRGQYrLLBsQtQBFgA",
+            "craftedBy": []
+        }
+    },
+    "followers": {
+        "templar": {
+            "slug": "templar",
+            "level": 70,
+            "items": {
+                "special": {
+                    "id": "x1_FollowerItem_Templar_Legendary_01",
+                    "name": "Enchanting Favor",
+                    "icon": "x1_followeritem_templar_legendary_01_demonhunter_male",
+                    "displayColor": "orange",
+                    "tooltipParams": "item/CkAIvYLM2gsSBwgEFY9EW9IdseTqER07J28kHbDBCXIdOJ3kBB2BgcbEMIsCOL0DQABQElgEYL0DgAFGtQHsC2NEGOHtpdoF",
+                    "craftedBy": []
+                },
+                "mainHand": {
+                    "id": "Dagger_202",
+                    "name": "Champion Pavade",
+                    "icon": "dagger_202_demonhunter_male",
+                    "displayColor": "blue",
+                    "tooltipParams": "item/CiUIzIeJmQkSBwgEFX1-T7IdTD30aR21Q_pjMAk4uARAAFAIYLgEGIWGhNsJ",
+                    "craftedBy": []
+                },
+                "offHand": {
+                    "id": "Shield_104",
+                    "name": "Aegis Talent",
+                    "icon": "shield_104_demonhunter_male",
+                    "displayColor": "yellow",
+                    "tooltipParams": "item/CjwI2M3y-A8SBwgEFc0HO2wd4iG9Bx3mf6u4HZq3dTUdUqLbDSILCAEVcUIDABgcIBowCTj-BEAAUAxg_gQYmp_Yww0",
+                    "craftedBy": [{
+                        "id": "T06_Armor_Shield",
+                        "slug": "illustrious-ironwood-shield",
+                        "name": "Illustrious Ironwood Shield",
+                        "cost": 1800,
+                        "reagents": [{
+                            "quantity": 8,
+                            "item": {
+                                "id": "Crafting_Tier_04A",
+                                "name": "Common Debris",
+                                "icon": "crafting_tier_04a_demonhunter_male",
+                                "displayColor": "white",
+                                "tooltipParams": "item/common-debris"
+                            }
+                        }, {
+                            "quantity": 8,
+                            "item": {
+                                "id": "Crafting_Tier_04B",
+                                "name": "Exquisite Essence",
+                                "icon": "crafting_tier_04b_demonhunter_male",
+                                "displayColor": "blue",
+                                "tooltipParams": "item/exquisite-essence"
+                            }
+                        }, {
+                            "quantity": 3,
+                            "item": {
+                                "id": "Crafting_Tier_04C",
+                                "name": "Iridescent Tear",
+                                "icon": "crafting_tier_04c_demonhunter_male",
+                                "displayColor": "yellow",
+                                "tooltipParams": "item/iridescent-tear"
+                            }
+                        }],
+                        "itemProduced": {
+                            "id": "Shield_104",
+                            "name": "Illustrious Ironwood Shield",
+                            "icon": "shield_104_demonhunter_male",
+                            "displayColor": "yellow",
+                            "tooltipParams": "recipe/illustrious-ironwood-shield"
+                        }
+                    }]
+                },
+                "rightFinger": {
+                    "id": "Ring_14",
+                    "name": "Salubrious Ring of Agony",
+                    "icon": "ring_14_demonhunter_male",
+                    "displayColor": "blue",
+                    "tooltipParams": "item/CiQIt9DiBxIHCAQVFFVdRB3QNyIDHVmIiZUwCTjjA0AAUAhg4wMYqNTqxQg",
+                    "craftedBy": []
+                },
+                "leftFinger": {
+                    "id": "Unique_Ring_001_x1",
+                    "name": "Band of Hollow Whispers",
+                    "icon": "unique_ring_001_x1_demonhunter_male",
+                    "displayColor": "orange",
+                    "tooltipParams": "item/CkAI-LKe-QYSBwgEFT4lIrkd89VHtB1mIwZQHUNORFEdfnZVoR2bhvbiMIsCOIQDQABQElgEYIQDgAFGtQE2VV1EGIPr7u0I",
+                    "craftedBy": []
+                },
+                "neck": {
+                    "id": "Amulet06",
+                    "name": "Proud Amulet",
+                    "icon": "amulet06_demonhunter_male",
+                    "displayColor": "blue",
+                    "tooltipParams": "item/CiAIu9_Y4w0SBwgEFY7FRGQdZ6WvETAJOI8EQABQBmCPBBiclqbEDA",
+                    "craftedBy": []
+                }
+            },
+            "stats": {
+                "goldFind": 0,
+                "magicFind": 0,
+                "experienceBonus": 0
+            },
+            "skills": [{
+                "skill": {
+                    "slug": "intervene",
+                    "name": "Intervene",
+                    "icon": "templar_intervene",
+                    "level": 5,
+                    "tooltipUrl": "skill/templar/intervene",
+                    "description": "Cooldown: 10 seconds\r\n\r\nTaunt enemies within 10 yards of you for 3 seconds when you are hit.",
+                    "simpleDescription": "Cooldown: 10 seconds\r\n\r\nTaunt enemies near you when you are hit.",
+                    "skillCalcId": "Z"
+                }
+            }, {
+                "skill": {
+                    "slug": "loyalty",
+                    "name": "Loyalty",
+                    "icon": "templar_loyalty",
+                    "level": 10,
+                    "tooltipUrl": "skill/templar/loyalty",
+                    "description": "Regenerates 6437 Life per second for you and the Templar.",
+                    "simpleDescription": "Provides Life regeneration for you and the Templar.",
+                    "skillCalcId": "b"
+                }
+            }, {
+                "skill": {
+                    "slug": "charge",
+                    "name": "Charge",
+                    "icon": "templar_shieldcharge",
+                    "level": 15,
+                    "tooltipUrl": "skill/templar/charge",
+                    "description": "Cooldown: 10 seconds\r\n\r\nCharges a target, dealing 280% weapon damage and stunning all enemies within 8 yards for 3 seconds.",
+                    "simpleDescription": "Cooldown: 10 seconds\r\n\r\nCharges an enemy, dealing damage and stunning nearby enemies.",
+                    "skillCalcId": "c"
+                }
+            }, {
+                "skill": {
+                    "slug": "inspire",
+                    "name": "Inspire",
+                    "icon": "templar_inspire",
+                    "level": 20,
+                    "tooltipUrl": "skill/templar/inspire",
+                    "description": "Increases your resource generation.\r\n\r\nMana: 7 per second.\r\nHatred: 1 per second.\r\nWrath: 1.1 per second.\r\nArcane Power: 1.4 per second.\r\nFury: 10% generated.\r\nSpirit: 10% generated.",
+                    "simpleDescription": "Increases your resource generation.",
+                    "skillCalcId": "d"
+                }
+            }]
+        },
+        "scoundrel": {
+            "slug": "scoundrel",
+            "level": 70,
+            "items": {
+                "special": {
+                    "id": "x1_FollowerItem_Scoundrel_Legendary_02",
+                    "name": "Ribald Etchings",
+                    "icon": "x1_followeritem_scoundrel_legendary_02_demonhunter_male",
+                    "displayColor": "orange",
+                    "tooltipParams": "item/CkUIxoeinQcSBwgEFYqhVzodco4dIR2x5OoRHTsnbyQdmwYAyx2wwQlyHcn6vKAwiwI4qgNAAFASWARgqgOAAUa1AaYBTPIYlIa9pQc",
+                    "craftedBy": []
+                },
+                "mainHand": {
+                    "id": "Crossbow_001",
+                    "name": "Light Crossbow of Slaying",
+                    "icon": "crossbow_001_demonhunter_male",
+                    "displayColor": "blue",
+                    "tooltipParams": "item/CiAIqc_H7gwSBwgEFYJTygodR5uKMjAJOJMFQABQBmCTBRiEztKsAQ",
+                    "craftedBy": [{
+                        "id": "T01_Weapon_Crossbow",
+                        "slug": "apprentice-light-crossbow",
+                        "name": "Apprentice Light Crossbow",
+                        "cost": 465,
+                        "reagents": [{
+                            "quantity": 1,
+                            "item": {
+                                "id": "Crafting_Tier_04A",
+                                "name": "Common Debris",
+                                "icon": "crafting_tier_04a_demonhunter_male",
+                                "displayColor": "white",
+                                "tooltipParams": "item/common-debris"
+                            }
+                        }, {
+                            "quantity": 5,
+                            "item": {
+                                "id": "Crafting_Tier_04B",
+                                "name": "Exquisite Essence",
+                                "icon": "crafting_tier_04b_demonhunter_male",
+                                "displayColor": "blue",
+                                "tooltipParams": "item/exquisite-essence"
+                            }
+                        }],
+                        "itemProduced": {
+                            "id": "Crossbow_001",
+                            "name": "Apprentice Light Crossbow",
+                            "icon": "crossbow_001_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "recipe/apprentice-light-crossbow"
+                        }
+                    }]
+                }
+            },
+            "stats": {
+                "goldFind": 0,
+                "magicFind": 0,
+                "experienceBonus": 30
+            },
+            "skills": [{
+                "skill": {
+                    "slug": "crippling-shot",
+                    "name": "Crippling Shot",
+                    "icon": "scoundrel_cripplingshot",
+                    "level": 5,
+                    "tooltipUrl": "skill/scoundrel/crippling-shot",
+                    "description": "Cooldown: 4 seconds\r\n\r\nRanged attack that deals 140% weapon damage and slows enemies hit by 80% for 4 seconds.",
+                    "simpleDescription": "Cooldown: 4 seconds\r\n\r\nRanged attack that slows enemies.",
+                    "skillCalcId": "a"
+                }
+            }, {
+                "skill": {
+                    "slug": "dirty-fighting",
+                    "name": "Dirty Fighting",
+                    "icon": "scoundrel_dirtyfighting",
+                    "level": 10,
+                    "tooltipUrl": "skill/scoundrel/dirty-fighting",
+                    "description": "Cooldown: 6 seconds\r\n\r\nBlinds nearby enemies in front of the Scoundrel for 2 seconds.",
+                    "simpleDescription": "Cooldown: 6 seconds\r\n\r\nBlinds nearby enemies in front of the Scoundrel.",
+                    "skillCalcId": "b"
+                }
+            }, {}, {
+                "skill": {
+                    "slug": "hysteria",
+                    "name": "Hysteria",
+                    "icon": "scoundrel_hysteria",
+                    "level": 20,
+                    "tooltipUrl": "skill/scoundrel/hysteria",
+                    "description": "Whenever you or the Scoundrel land a Critical Hit, you both will go into hysterics, increasing all damage done by 3% for 3 seconds.",
+                    "simpleDescription": "Critical Hits cause you and the Scoundrel to temporarily deal more damage.",
+                    "skillCalcId": "d"
+                }
+            }]
+        },
+        "enchantress": {
+            "slug": "enchantress",
+            "level": 70,
+            "items": {
+                "special": {
+                    "id": "x1_FollowerItem_Enchantress_Legendary_02",
+                    "name": "Hand of the Prophet",
+                    "icon": "x1_followeritem_enchantress_legendary_02_demonhunter_male",
+                    "displayColor": "orange",
+                    "tooltipParams": "item/CkAIvb37sw0SBwgEFfkkI-Udco4dIR2wwQlyHTsnbyQdaklp6h3zcAetMIsCOI0DQABQElgEYI0DgAFGtQE1o2ItGI3s5q0D",
+                    "craftedBy": []
+                },
+                "mainHand": {
+                    "id": "Unique_Sword_1H_014_104",
+                    "name": "Doombringer",
+                    "icon": "unique_sword_1h_014_104_demonhunter_male",
+                    "displayColor": "orange",
+                    "tooltipParams": "item/CjkIyeaonQ4SBwgEFYWpYRUduPHsGh3CGsl7HR7l3bUdV_Hg1h3A6MFUHdvtjTMwCTihAkAAUBJgoQIYiqaN1gI",
+                    "craftedBy": []
+                },
+                "leftFinger": {
+                    "id": "Ring_21",
+                    "name": "Baron's Ring",
+                    "icon": "ring_21_demonhunter_male",
+                    "displayColor": "yellow",
+                    "tooltipParams": "item/CkEI2siwlgQSBwgEFTJVXUQdNmh0ux1nF8ExHSXd7Scdub6Lbh0D7L0LIgsIABXHRAMAGAAgHDAJOPMBQABQDmCSBBjk1OrFCA",
+                    "craftedBy": []
+                }
+            },
+            "stats": {
+                "goldFind": 0,
+                "magicFind": 0,
+                "experienceBonus": 29
+            },
+            "skills": [{
+                "skill": {
+                    "slug": "forceful-push",
+                    "name": "Forceful Push",
+                    "icon": "enchantress_forcefulpush",
+                    "level": 15,
+                    "tooltipUrl": "skill/enchantress/forceful-push",
+                    "description": "Cooldown: 5 seconds\r\n\r\nSummon an Arcane explosion 8 yards around an enemy, dealing 410% weapon damage as Arcane and knocking back all monsters caught within it.",
+                    "simpleDescription": "Cooldown: 5 seconds\r\n\r\nCreates an explosion that deals massive damage and knocks back enemies.",
+                    "skillCalcId": "Z"
+                }
+            }, {
+                "skill": {
+                    "slug": "powered-armor",
+                    "name": "Powered Armor",
+                    "icon": "enchantress_poweredarmor",
+                    "level": 20,
+                    "tooltipUrl": "skill/enchantress/powered-armor",
+                    "description": "Buffs you and the Enchantress, increasing Armor by 3% and slowing melee attackers by 60% for 1 seconds.",
+                    "simpleDescription": "Increases Armor and slows melee attackers for you and the Enchantress.",
+                    "skillCalcId": "Y"
+                }
+            }, {
+                "skill": {
+                    "slug": "erosion",
+                    "name": "Erosion",
+                    "icon": "enchantress_scorchedearth",
+                    "level": 25,
+                    "tooltipUrl": "skill/enchantress/erosion",
+                    "description": "Cooldown: 15 seconds\r\n\r\nConjures a pool of energy that deals 330% weapon damage as Arcane over 5 seconds. Affected enemies will also take 3% increased damage.",
+                    "simpleDescription": "Cooldown: 15 seconds\r\n\r\nConjures a pool of energy that deals damage and causes affected enemies to take additional damage.",
+                    "skillCalcId": "X"
+                }
+            }, {
+                "skill": {
+                    "slug": "focused-mind",
+                    "name": "Focused Mind",
+                    "icon": "enchantress_focusedmind",
+                    "level": 30,
+                    "tooltipUrl": "skill/enchantress/focused-mind",
+                    "description": "A 40 yard aura that increases attack speed for you and the Enchantress by 3%.",
+                    "simpleDescription": "An aura that increases attack speed for you and the Enchantress.",
+                    "skillCalcId": "d"
+                }
+            }]
+        }
+    },
+    "stats": {
+        "life": 421025,
+        "damage": 907024.0,
+        "toughness": 6919590.0,
+        "healing": 42293.7,
+        "attackSpeed": 1.5,
+        "armor": 6237,
+        "strength": 77,
+        "dexterity": 77,
+        "vitality": 4140,
+        "intelligence": 9224,
+        "physicalResist": 1406,
+        "fireResist": 1262,
+        "coldResist": 1111,
+        "lightningResist": 1414,
+        "poisonResist": 1271,
+        "arcaneResist": 1111,
+        "critDamage": 4.0,
+        "blockChance": 0.0,
+        "blockAmountMin": 0,
+        "blockAmountMax": 0,
+        "damageIncrease": 0.0,
+        "critChance": 0.47500000075,
+        "damageReduction": 0.0,
+        "thorns": 1963.0,
+        "lifeSteal": 0.0,
+        "lifePerKill": 8361.0,
+        "goldFind": 2.04,
+        "magicFind": 0.0,
+        "lifeOnHit": 7294.0,
+        "primaryResource": 120,
+        "secondaryResource": 0
+    },
+    "kills": {
+        "elites": 8488
+    },
+    "progression": {
+        "act1": {
+            "completed": true,
+            "completedQuests": [{
+                "slug": "the-fallen-star",
+                "name": "The Fallen Star"
+            }, {
+                "slug": "the-legacy-of-cain",
+                "name": "The Legacy of Cain"
+            }, {
+                "slug": "a-shattered-crown",
+                "name": "A Shattered Crown"
+            }, {
+                "slug": "reign-of-the-black-king",
+                "name": "Reign of the Black King"
+            }, {
+                "slug": "sword-of-the-stranger",
+                "name": "Sword of the Stranger"
+            }, {
+                "slug": "the-broken-blade",
+                "name": "The Broken Blade"
+            }, {
+                "slug": "the-doom-in-wortham",
+                "name": "The Doom in Wortham"
+            }, {
+                "slug": "trailing-the-coven",
+                "name": "Trailing the Coven"
+            }, {
+                "slug": "the-imprisoned-angel",
+                "name": "The Imprisoned Angel"
+            }, {
+                "slug": "return-to-new-tristram",
+                "name": "Return to New Tristram"
+            }]
+        },
+        "act2": {
+            "completed": true,
+            "completedQuests": [{
+                "slug": "shadows-in-the-desert",
+                "name": "Shadows in the Desert"
+            }, {
+                "slug": "the-road-to-alcarnus",
+                "name": "The Road to Alcarnus"
+            }, {
+                "slug": "city-of-blood",
+                "name": "City of Blood"
+            }, {
+                "slug": "a-royal-audience",
+                "name": "A Royal Audience"
+            }, {
+                "slug": "unexpected-allies",
+                "name": "Unexpected Allies"
+            }, {
+                "slug": "betrayer-of-the-horadrim",
+                "name": "Betrayer of the Horadrim"
+            }, {
+                "slug": "blood-and-sand",
+                "name": "Blood and Sand"
+            }, {
+                "slug": "the-black-soulstone",
+                "name": "The Black Soulstone"
+            }, {
+                "slug": "the-scouring-of-caldeum",
+                "name": "The Scouring of Caldeum"
+            }, {
+                "slug": "lord-of-lies",
+                "name": "Lord of Lies"
+            }]
+        },
+        "act3": {
+            "completed": true,
+            "completedQuests": [{
+                "slug": "the-siege-of-bastions-keep",
+                "name": "The Siege of Bastion's Keep"
+            }, {
+                "slug": "turning-the-tide",
+                "name": "Turning the Tide"
+            }, {
+                "slug": "the-breached-keep",
+                "name": "The Breached Keep"
+            }, {
+                "slug": "tremors-in-the-stone",
+                "name": "Tremors in the Stone"
+            }, {
+                "slug": "machines-of-war",
+                "name": "Machines of War"
+            }, {
+                "slug": "siegebreaker",
+                "name": "Siegebreaker"
+            }, {
+                "slug": "heart-of-sin",
+                "name": "Heart of Sin"
+            }]
+        },
+        "act4": {
+            "completed": true,
+            "completedQuests": [{
+                "slug": "fall-of-the-high-heavens",
+                "name": "Fall of the High Heavens"
+            }, {
+                "slug": "the-light-of-hope",
+                "name": "The Light of Hope"
+            }, {
+                "slug": "beneath-the-spire",
+                "name": "Beneath the Spire"
+            }, {
+                "slug": "prime-evil",
+                "name": "Prime Evil"
+            }]
+        },
+        "act5": {
+            "completed": false,
+            "completedQuests": []
+        }
+    },
+    "dead": false,
+    "last-updated": 1419025848
+}

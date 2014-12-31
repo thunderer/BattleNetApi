@@ -1,0 +1,755 @@
+{
+    "battleTag": "Thunderer#1926",
+    "paragonLevel": 281,
+    "paragonLevelHardcore": 4,
+    "paragonLevelSeason": 0,
+    "paragonLevelSeasonHardcore": 0,
+    "heroes": [{
+        "paragonLevel": 281,
+        "seasonal": false,
+        "name": "Thunderer",
+        "id": 438767,
+        "level": 70,
+        "hardcore": false,
+        "gender": 0,
+        "dead": false,
+        "class": "wizard",
+        "last-updated": 1419025848
+    }, {
+        "paragonLevel": 281,
+        "seasonal": false,
+        "name": "Blade",
+        "id": 34561057,
+        "level": 70,
+        "hardcore": false,
+        "gender": 0,
+        "dead": false,
+        "class": "demon-hunter",
+        "last-updated": 1419018046
+    }, {
+        "paragonLevel": 4,
+        "seasonal": false,
+        "name": "Avenger",
+        "id": 34627984,
+        "level": 70,
+        "hardcore": true,
+        "gender": 0,
+        "dead": false,
+        "class": "demon-hunter",
+        "last-updated": 1414969718
+    }, {
+        "paragonLevel": 281,
+        "seasonal": false,
+        "name": "Isildur",
+        "id": 40152658,
+        "level": 70,
+        "hardcore": false,
+        "gender": 0,
+        "dead": false,
+        "class": "crusader",
+        "last-updated": 1417377823
+    }, {
+        "paragonLevel": 4,
+        "seasonal": false,
+        "name": "Zawisza",
+        "id": 51490238,
+        "level": 66,
+        "hardcore": true,
+        "gender": 0,
+        "dead": false,
+        "class": "crusader",
+        "last-updated": 1415561395
+    }, {
+        "paragonLevel": 281,
+        "seasonal": false,
+        "name": "Athene",
+        "id": 20217277,
+        "level": 16,
+        "hardcore": false,
+        "gender": 1,
+        "dead": false,
+        "class": "wizard",
+        "last-updated": 1358103224
+    }, {
+        "paragonLevel": 281,
+        "seasonal": false,
+        "name": "killer",
+        "id": 17935783,
+        "level": 14,
+        "hardcore": false,
+        "gender": 0,
+        "dead": false,
+        "class": "barbarian",
+        "last-updated": 1344078333
+    }, {
+        "paragonLevel": 281,
+        "seasonal": false,
+        "name": "Yip",
+        "id": 52057465,
+        "level": 38,
+        "hardcore": false,
+        "gender": 0,
+        "dead": false,
+        "class": "monk",
+        "last-updated": 1416704713
+    }],
+    "lastHeroPlayed": 438767,
+    "lastUpdated": 1419025848,
+    "kills": {
+        "monsters": 194245,
+        "elites": 16912,
+        "hardcoreMonsters": 51458
+    },
+    "highestHardcoreLevel": 70,
+    "timePlayed": {
+        "barbarian": 0.023,
+        "crusader": 0.08,
+        "demon-hunter": 0.297,
+        "monk": 0.017,
+        "witch-doctor": 0.0,
+        "wizard": 1.0
+    },
+    "progression": {
+        "act1": true,
+        "act2": true,
+        "act3": true,
+        "act4": true,
+        "act5": true
+    },
+    "fallenHeroes": [{
+        "name": "Mithrandir",
+        "level": 60,
+        "stats": {
+            "life": 0,
+            "damage": 16049.4,
+            "toughness": 0.0,
+            "healing": 0.0,
+            "armor": 0,
+            "strength": 633,
+            "dexterity": 816,
+            "vitality": 645,
+            "intelligence": 1602,
+            "physicalResist": 0,
+            "fireResist": 364,
+            "coldResist": 340,
+            "lightningResist": 437,
+            "poisonResist": 352,
+            "arcaneResist": 408,
+            "damageIncrease": 0.0,
+            "critChance": 0.0,
+            "damageReduction": 0.0
+        },
+        "items": {
+            "head": {
+                "id": "WizardHat_204",
+                "name": "Resilient Shade",
+                "icon": "wizardhat_204_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkMIorjV5gMSBwgEFYOxpGgdElz0_B1F29IoHQwDPosdhBydJx0_pFAHIgsIABWtRAMAGAQgADAJOO4CQABIFVAOYJoDGIbGpYoNUARYAA",
+                "craftedBy": []
+            },
+            "torso": {
+                "id": "ChestArmor_205",
+                "name": "Hero Glamour",
+                "icon": "chestarmor_205_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkMI-a_I7gwSBwgEFS4iGWAdtwRpuh0_pFAHHbR1na0dRpPTiR2yV9XuIgsIARW1RAMAGAggJDAJONIEQABIEVAOYKMFGNyIyYEMUARYAA",
+                "craftedBy": [{
+                    "id": "T10_Armor_Chest_04",
+                    "slug": "exalted-sovereign-mail",
+                    "name": "Exalted Sovereign Mail",
+                    "cost": 18000,
+                    "reagents": [{
+                        "quantity": 4,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "ChestArmor_205",
+                        "name": "Exalted Sovereign Mail",
+                        "icon": "chestarmor_205_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/exalted-sovereign-mail"
+                    }
+                }, {
+                    "id": "T10_Armor_Chest_06",
+                    "slug": "exalted-grand-sovereign-mail",
+                    "name": "Exalted Grand Sovereign Mail",
+                    "cost": 54000,
+                    "reagents": [{
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }, {
+                        "quantity": 2,
+                        "item": {
+                            "id": "Crafting_Tier_04C",
+                            "name": "Iridescent Tear",
+                            "icon": "crafting_tier_04c_demonhunter_male",
+                            "displayColor": "yellow",
+                            "tooltipParams": "item/iridescent-tear"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "ChestArmor_205",
+                        "name": "Exalted Grand Sovereign Mail",
+                        "icon": "chestarmor_205_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/exalted-grand-sovereign-mail"
+                    }
+                }, {
+                    "id": "T10_Armor_Chest_05",
+                    "slug": "exalted-fine-sovereign-mail",
+                    "name": "Exalted Fine Sovereign Mail",
+                    "cost": 24000,
+                    "reagents": [{
+                        "quantity": 4,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "ChestArmor_205",
+                        "name": "Exalted Fine Sovereign Mail",
+                        "icon": "chestarmor_205_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/exalted-fine-sovereign-mail"
+                    }
+                }]
+            },
+            "feet": {
+                "id": "Boots_105",
+                "name": "Mortal Groundpounders",
+                "icon": "boots_105_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkgI5_uboQ0SBwgEFVxBm38dHhdaox3k5anwHTWar68dDT4_ux0kKQvsHZ0pDogiCwgAFc7-AQAYDCAEMAk4_wNAAEgHUBBgxwQYuIXa-Q9QBFgA",
+                "craftedBy": [{
+                    "id": "T07_Armor_Boots",
+                    "slug": "magnificent-battle-greaves",
+                    "name": "Magnificent Battle Greaves",
+                    "cost": 900,
+                    "reagents": [{
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }, {
+                        "quantity": 4,
+                        "item": {
+                            "id": "Crafting_Tier_04C",
+                            "name": "Iridescent Tear",
+                            "icon": "crafting_tier_04c_demonhunter_male",
+                            "displayColor": "yellow",
+                            "tooltipParams": "item/iridescent-tear"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "Boots_105",
+                        "name": "Magnificent Battle Greaves",
+                        "icon": "boots_105_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/magnificent-battle-greaves"
+                    }
+                }]
+            },
+            "hands": {
+                "id": "Gloves_204",
+                "name": "Sly Vices",
+                "icon": "gloves_204_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkMI1O6JugESBwgEFcVbkqQd5OWp8B0eF1qjHQPsvQsdEFz0_B0MAz6LIgsIABXDRAMAGAggEjAJOL8DQABIE1AOYIAEGPWQ7bYLUARYAA",
+                "craftedBy": []
+            },
+            "shoulders": {
+                "id": "Shoulders_105",
+                "name": "Resolute Plates",
+                "icon": "shoulders_105_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/Cj4I1-PZ0AwSBwgEFY70yBUdnSkOiB1BpkbiHb6VKPwdNZqvryILCAAVrf4BABgCIAIwCTiiA0AASAZQDGDfAxic0sfcAlAEWAA",
+                "craftedBy": []
+            },
+            "legs": {
+                "id": "Pants_201",
+                "name": "Walker's Defiance",
+                "icon": "pants_201_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CmQI5KCkCBIHCAQVmJLVpR2UvzSKHTWar68dEe1-iB0kKgFuIgsIARWFQgMAGAAgGjAJOOwDQABIBFAMYLIEaiUKDAgAEK_r29yCgIDAHRIVCJvT5d8KEgcIBBW1XbZ6MAk4AEABGM-106ILUARYAA",
+                "craftedBy": []
+            },
+            "bracers": {
+                "id": "Bracers_203",
+                "name": "Maiming Chokes",
+                "icon": "bracers_203_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkYIhffsqAMSBwgEFdYsyssdiwbR-h0o_n0BHZQ947kdxZ6okR34ucU_HRJW1e4iCwgAFar-AQAYBCAKMAk4uwJAAFAQYOECGNPMrsMGUARYAA",
+                "craftedBy": []
+            },
+            "mainHand": {
+                "id": "Mace_1H_205",
+                "name": "Burning Smite",
+                "icon": "mace_1h_205_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkYIw5ur4gMSBwgEFUQUS50dfW1ZVh228ewaHU-bijIdDlz0_B3g571iHUEB1FQiCwgAFb3-AQAYBCA-MAk4uQRAAFAMYIcFGPeup6sMUARYAA",
+                "craftedBy": []
+            },
+            "offHand": {
+                "id": "Shield_205_104",
+                "name": "Warrior's Barricade",
+                "icon": "shield_205_104_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CmgI7tus1QMSBwgEFWNqJewdEFz0_B1a4IGbHYs-u18d7TrCNh2ebLMUIgsIABXM_gEAGB4gBjAJOLwDQABQDmD8A2olCgwIABDI69vcgoCAwB0SFQjv-Y-rDBIHCAQVtV22ejAJOABAARi51tS9AlAEWAA",
+                "craftedBy": [{
+                    "id": "T09_Armor_Shield",
+                    "slug": "glorious-aegis",
+                    "name": "Glorious Aegis",
+                    "cost": 4500,
+                    "reagents": [{
+                        "quantity": 8,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 8,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }, {
+                        "quantity": 3,
+                        "item": {
+                            "id": "Crafting_Tier_04C",
+                            "name": "Iridescent Tear",
+                            "icon": "crafting_tier_04c_demonhunter_male",
+                            "displayColor": "yellow",
+                            "tooltipParams": "item/iridescent-tear"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "Shield_205_104",
+                        "name": "Glorious Aegis",
+                        "icon": "shield_205_104_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/glorious-aegis"
+                    }
+                }]
+            },
+            "waist": {
+                "id": "Belt_103",
+                "name": "Gallant Legend",
+                "icon": "belt_103_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkUI5au7LhIHCAQVeqNC1B3RwiK3HceXQGAd3kxK8h27aQ8eHeXWLt0d9ORSKiILCAAVrf4BABgUICIwCTj4AkAAUBBgsQMYi_LquwVQBFgA",
+                "craftedBy": []
+            },
+            "rightFinger": {
+                "id": "Ring_19",
+                "name": "Antique Poise",
+                "icon": "ring_19_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkYI77e5uAgSBwgEFRlVXUQdDheAyR0BamldHeNzrmYd4iG9Bx0Cf5IBHYcxXuUiCwgBFXFCAwAYGCAQMAk4lwNAAFAQYNMDGLLU6sUIUARYAA",
+                "craftedBy": []
+            },
+            "leftFinger": {
+                "id": "Ring_18",
+                "name": "Massacre Boon",
+                "icon": "ring_18_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CjwI4tqMrAoSBwgEFRhVXUQddk8MNR3b8kKgHQJ_kgEdK3a5xiILCAAVq_4BABgkICIwCTjOAkAAUAxgggMYsNTqxQhQBFgA",
+                "craftedBy": []
+            },
+            "neck": {
+                "id": "Amulet11",
+                "name": "Prestige Downfall",
+                "icon": "amulet11_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkYIvvaXtQMSBwgEFarFRGQdqdGSAx3OhAJYHZtssxQdO53LyB208ewaHQVW1e4iCwgBFWxCAwAYCCAeMAk4_QJAAFAQYLYDGNSWpsQMUARYAA",
+                "craftedBy": []
+            }
+        },
+        "kills": {
+            "elites": 1225
+        },
+        "hardcore": true,
+        "death": {
+            "killer": 210502,
+            "time": 1368521437,
+            "location": 211471
+        },
+        "heroId": 27556222,
+        "gender": 0,
+        "class": "wizard"
+    }, {
+        "name": "RandallFlagg",
+        "level": 32,
+        "stats": {
+            "life": 0,
+            "damage": 741.313,
+            "toughness": 0.0,
+            "healing": 0.0,
+            "armor": 0,
+            "strength": 190,
+            "dexterity": 141,
+            "vitality": 170,
+            "intelligence": 500,
+            "physicalResist": 0,
+            "fireResist": 62,
+            "coldResist": 50,
+            "lightningResist": 50,
+            "poisonResist": 50,
+            "arcaneResist": 50,
+            "damageIncrease": 0.0,
+            "critChance": 0.0,
+            "damageReduction": 0.0
+        },
+        "items": {
+            "head": {
+                "id": "Unique_Helm_001_104",
+                "name": "Broken Crown",
+                "icon": "unique_helm_001_104_demonhunter_male",
+                "displayColor": "orange",
+                "tooltipParams": "item/CjkI96jDjAcSBwgEFQCoRpEdN-jnYR35bXYzHbhb6EgdMCcdVh2vD3iXHZ4jvEgwCTjAAUAAUBJg7wIY_9_K6w1QBFgA",
+                "craftedBy": []
+            },
+            "torso": {
+                "id": "ChestArmor_005",
+                "name": "Covenant Spur",
+                "icon": "chestarmor_005_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CowBCK3sy_UCEgcIBBWsGRlgHfltdjMdGy00Yh2UBdI8HbfCYuoiCwgBFYlCAwAYHiAUMAk49wNAAEgPUAxg5wRqJQoMCAAQ8Mb1z4KAgKAuEhUI283v2QISBwgEFbVdtnowCTgAQAFqJQoMCAAQgsf1z4KAgKAuEhUIsIS4ow4SBwgEFbVdtnowCTgAQAEY2ObIgQxQBFgA",
+                "craftedBy": [{
+                    "id": "T03_Armor_Chest",
+                    "slug": "adept-splint-cuirass",
+                    "name": "Adept Splint Cuirass",
+                    "cost": 3000,
+                    "reagents": [{
+                        "quantity": 4,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "ChestArmor_005",
+                        "name": "Adept Splint Cuirass",
+                        "icon": "chestarmor_005_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/adept-splint-cuirass"
+                    }
+                }]
+            },
+            "feet": {
+                "id": "Boots_006",
+                "name": "Squire's Stompers",
+                "icon": "boots_006_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CkgIpPSflAUSBwgEFRw9m38dSFJ1-h2UBdI8HYnVw50dnZftbB3Hl0BgHbtb6EgiCwgAFbH-AQAYDiAAMAk4_ANAAEgIUBBg0AQYuPTZ-Q9QBFgA",
+                "craftedBy": [{
+                    "id": "T04_Armor_Boots",
+                    "slug": "master-greaves",
+                    "name": "Master Greaves",
+                    "cost": 450,
+                    "reagents": [{
+                        "quantity": 4,
+                        "item": {
+                            "id": "Crafting_Tier_04A",
+                            "name": "Common Debris",
+                            "icon": "crafting_tier_04a_demonhunter_male",
+                            "displayColor": "white",
+                            "tooltipParams": "item/common-debris"
+                        }
+                    }, {
+                        "quantity": 5,
+                        "item": {
+                            "id": "Crafting_Tier_04B",
+                            "name": "Exquisite Essence",
+                            "icon": "crafting_tier_04b_demonhunter_male",
+                            "displayColor": "blue",
+                            "tooltipParams": "item/exquisite-essence"
+                        }
+                    }, {
+                        "quantity": 3,
+                        "item": {
+                            "id": "Crafting_Tier_04C",
+                            "name": "Iridescent Tear",
+                            "icon": "crafting_tier_04c_demonhunter_male",
+                            "displayColor": "yellow",
+                            "tooltipParams": "item/iridescent-tear"
+                        }
+                    }],
+                    "itemProduced": {
+                        "id": "Boots_006",
+                        "name": "Master Greaves",
+                        "icon": "boots_006_demonhunter_male",
+                        "displayColor": "yellow",
+                        "tooltipParams": "recipe/master-greaves"
+                    }
+                }]
+            },
+            "hands": {
+                "id": "Unique_Gloves_014_104",
+                "name": "Magefist",
+                "icon": "unique_gloves_014_104_demonhunter_male",
+                "displayColor": "orange",
+                "tooltipParams": "item/CjcI-YPwAxIHCAQV7rb1bR1uWhsSHWBQqgcdOOxoNx2LrVJoHTAnHVYdniO8SDAJOFxAAFASYIkCGNzbrd8NUARYAA",
+                "craftedBy": []
+            },
+            "shoulders": {
+                "id": "Shoulders_005",
+                "name": "Cavalry Journey",
+                "icon": "shoulders_005_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/Cj4ImMPiyQYSBwgEFU3wyBUdC3KLih15s8VyHRhNvCod5dYu3SILCAEVckIDABgQIBAwCTjmA0AASAJQDGDUBBiawcfcAlAEWAA",
+                "craftedBy": []
+            },
+            "legs": {
+                "id": "Pants_005",
+                "name": "Dash Essence",
+                "icon": "pants_005_wizard_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/Cm8Ilbm28gwSBwgEFRqK1aUd-W12Mx2MJv6rHQbRkggdRH0C5R3DWVNoHY6wzNAiCwgBFYpCAwAYCCAeMAk42QNAAEgCUBBgpwVqJQoMCAAQyoP1z4KAgKAuEhUImLnejgcSBwgEFbVdtnowCTgAQAEYy9fTogtQBFgA",
+                "craftedBy": []
+            },
+            "bracers": {
+                "id": "Bracers_004",
+                "name": "True Vambraces of Focus",
+                "icon": "bracers_004_demonhunter_male",
+                "displayColor": "blue",
+                "tooltipParams": "item/CiUIjc2x1AMSBwgEFVUkyssdSFJ1-h09ZM-6MAk43QFAAFAIYPECGNXursMGUARYAA",
+                "craftedBy": []
+            },
+            "mainHand": {
+                "id": "Sword_1H_005",
+                "name": "Cleave Lore",
+                "icon": "sword_1h_005_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CmMIleGt3AMSBwgEFdvM2e8dhb80ih2hGIEHHf9DX6AdX1CqByILCAEVb0IDABgaIAwwCTinA0AAUAxggwVqJQoMCAAQmcDRz4KAgKAuEhUIy5Kv7QISBwgEFWP1i18wDTgAQAEYycyxggJQBFgA",
+                "craftedBy": []
+            },
+            "offHand": {
+                "id": "Shield_007",
+                "name": "Juggernaut Riot",
+                "icon": "shield_007_demonhunter_male",
+                "displayColor": "yellow",
+                "tooltipParams": "item/CmgIkviLigoSBwgEFY8DO2wdvhrJex0QkVNoHbpb6EgdLIdiCB07sszQIgsIARVnQgMAGCYgHjAJOKkDQABQDmCQBGolCgwIABD28orNgoCAoC4SFQjHwaD4DBIHCAQVtV22ejAJOABAARiejtjDDVAEWAA",
+                "craftedBy": []
+            },
+            "waist": {
+                "id": "Belt_004",
+                "name": "Clever Cord of the Bear",
+                "icon": "belt_004_wizard_male",
+                "displayColor": "blue",
+                "tooltipParams": "item/CiUIm5WR2QgSBwgEFTqfQtQdniO8SB3wxNQcMAk4tgJAAFAIYOcDGIuD67sFUARYAA",
+                "craftedBy": []
+            },
+            "rightFinger": {
+                "id": "Ring_02",
+                "name": "Keen Ring of the Bear",
+                "icon": "ring_02_demonhunter_male",
+                "displayColor": "blue",
+                "tooltipParams": "item/CiUIpNvy0AMSBwgEFfFUXUQd73HA0B0tpb6MMAk49AFAAFAIYLwDGOLT6sUIUARYAA",
+                "craftedBy": []
+            },
+            "leftFinger": {
+                "id": "Ring_08",
+                "name": "Ring of Focus",
+                "icon": "ring_08_demonhunter_male",
+                "displayColor": "blue",
+                "tooltipParams": "item/CiAImsCU8w0SBwgEFfdUXUQdB50YdTAJOMICQABQBmD6Axju0-rFCFAEWAA",
+                "craftedBy": []
+            },
+            "neck": {
+                "id": "Amulet04",
+                "name": "Amulet of Focus",
+                "icon": "amulet04_demonhunter_male",
+                "displayColor": "blue",
+                "tooltipParams": "item/CiAInLPPnwQSBwgEFYzFRGQdYFCqBzAJOP8BQABQBmCUAxiYlqbEDFAEWAA",
+                "craftedBy": []
+            }
+        },
+        "kills": {
+            "elites": 365
+        },
+        "hardcore": true,
+        "death": {
+            "killer": 3848,
+            "time": 1368546435,
+            "location": 50584
+        },
+        "heroId": 27773576,
+        "gender": 0,
+        "class": "wizard"
+    }],
+    "blacksmith": {
+        "slug": "blacksmith",
+        "level": 12,
+        "stepCurrent": 0,
+        "stepMax": 5
+    },
+    "jeweler": {
+        "slug": "jeweler",
+        "level": 12,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "mystic": {
+        "slug": "mystic",
+        "level": 12,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "blacksmithHardcore": {
+        "slug": "blacksmith",
+        "level": 12,
+        "stepCurrent": 0,
+        "stepMax": 5
+    },
+    "jewelerHardcore": {
+        "slug": "jeweler",
+        "level": 12,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "mysticHardcore": {
+        "slug": "mystic",
+        "level": 12,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "blacksmithSeason": {
+        "slug": "blacksmith",
+        "level": 0,
+        "stepCurrent": -1,
+        "stepMax": 5
+    },
+    "jewelerSeason": {
+        "slug": "jeweler",
+        "level": 0,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "mysticSeason": {
+        "slug": "mystic",
+        "level": 0,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "blacksmithSeasonHardcore": {
+        "slug": "blacksmith",
+        "level": 0,
+        "stepCurrent": -1,
+        "stepMax": 5
+    },
+    "jewelerSeasonHardcore": {
+        "slug": "jeweler",
+        "level": 0,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "mysticSeasonHardcore": {
+        "slug": "mystic",
+        "level": 0,
+        "stepCurrent": 0,
+        "stepMax": 1
+    },
+    "seasonalProfiles": {
+        "season0": {
+            "seasonId": 0,
+            "paragonLevel": 281,
+            "paragonLevelHardcore": 4,
+            "kills": {
+                "monsters": 194245,
+                "elites": 16912,
+                "hardcoreMonsters": 51458
+            },
+            "timePlayed": {
+                "barbarian": 0.023,
+                "crusader": 0.08,
+                "demon-hunter": 0.297,
+                "monk": 0.017,
+                "witch-doctor": 0.0,
+                "wizard": 1.0
+            },
+            "highestHardcoreLevel": 70,
+            "progression": {
+                "act1": true,
+                "act2": true,
+                "act3": true,
+                "act4": true,
+                "act5": true
+            }
+        }
+    }
+}

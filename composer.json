@@ -1,0 +1,22 @@
+{
+    "name": "thunderer/blizzard-api",
+    "description": "Blizzard API Client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Kowalczyk",
+            "email": "tomasz@kowalczyk.cc"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thunder\\BlizzardApi\\": "lib",
+            "Thunder\\BlizzardApi\\Tests\\": "tests"
+        }
+    }
+}

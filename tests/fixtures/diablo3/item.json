@@ -1,0 +1,259 @@
+{
+    "id": "Unique_Helm_010_x1",
+    "name": "Tal Rasha's Guise of Wisdom",
+    "icon": "unique_helm_010_x1_demonhunter_male",
+    "displayColor": "green",
+    "tooltipParams": "item/CnII-O-j0w8SBwgEFZRz_BMdP_IJ2B04ssDVHZsGAMsdZiMGUB3zcAetHeYV2w0wiwI4mANAAFASWARgnANqKwoMCAAQsv-Fr4GAgMAzEhsIivT_ygISBwgEFWv1i18wjwI4AEABWASQAQCAAUa1AX_5Tl0YqM7jvwJQBFgAoAHZhNenC6ABqM7jvwKgAZLm6-cJ",
+    "requiredLevel": 70,
+    "itemLevel": 70,
+    "bonusAffixes": 0,
+    "bonusAffixesMax": 0,
+    "accountBound": true,
+    "flavorText": "The symbol of the Horadric order.",
+    "typeName": "Set Helm",
+    "type": {
+        "twoHanded": false,
+        "id": "Helm"
+    },
+    "armor": {
+        "min": 698.0,
+        "max": 698.0
+    },
+    "attributes": {
+        "primary": [{
+            "text": "+693 Intelligence",
+            "color": "blue",
+            "affixType": "default"
+        }, {
+            "text": "+690 Vitality",
+            "color": "blue",
+            "affixType": "default"
+        }, {
+            "text": "Critical Hit Chance Increased by 5.5%",
+            "color": "blue",
+            "affixType": "default"
+        }],
+        "secondary": [{
+            "text": "+145 Physical Resistance",
+            "color": "blue",
+            "affixType": "default"
+        }, {
+            "text": "+32% Extra Gold from Monsters",
+            "color": "blue",
+            "affixType": "utility"
+        }],
+        "passive": []
+    },
+    "attributesRaw": {
+        "Durability_Cur": {
+            "min": 408.0,
+            "max": 408.0
+        },
+        "Item_Binding_Level_Override": {
+            "min": 2.0,
+            "max": 2.0
+        },
+        "Vitality_Item": {
+            "min": 690.0,
+            "max": 690.0
+        },
+        "Durability_Max": {
+            "min": 412.0,
+            "max": 412.0
+        },
+        "Item_LegendaryItem_Level_Override": {
+            "min": 70.0,
+            "max": 70.0
+        },
+        "Gold_Find": {
+            "min": 0.32,
+            "max": 0.32
+        },
+        "Durability_Max_Before_Reforge": {
+            "min": 412.0,
+            "max": 412.0
+        },
+        "Season": {
+            "min": 0.0,
+            "max": 0.0
+        },
+        "Armor_Item": {
+            "min": 698.0,
+            "max": 698.0
+        },
+        "Crit_Percent_Bonus_Capped": {
+            "min": 0.055,
+            "max": 0.055
+        },
+        "Sockets": {
+            "min": 1.0,
+            "max": 1.0
+        },
+        "Item_Legendary_Item_Base_Item": {
+            "min": 1.565456767E9,
+            "max": 1.565456767E9
+        },
+        "Resistance#Physical": {
+            "min": 145.0,
+            "max": 145.0
+        },
+        "Loot_2_0_Drop": {
+            "min": 1.0,
+            "max": 1.0
+        },
+        "Intelligence_Item": {
+            "min": 693.0,
+            "max": 693.0
+        }
+    },
+    "randomAffixes": [],
+    "gems": [{
+        "item": {
+            "id": "Ruby_19",
+            "name": "Flawless Royal Ruby",
+            "icon": "ruby_19_demonhunter_male",
+            "displayColor": "blue",
+            "tooltipParams": "item/ChsIivT_ygISBwgEFWv1i18wjwI4AEABWASQAQAY1tXf-As"
+        },
+        "isGem": true,
+        "isJewel": false,
+        "attributes": {
+            "primary": [],
+            "secondary": [{
+                "text": "Increases Bonus Experience by 41%",
+                "color": "blue",
+                "affixType": "utility"
+            }],
+            "passive": []
+        },
+        "attributesRaw": {
+            "Experience_Bonus_Percent": {
+                "min": 0.41,
+                "max": 0.41
+            }
+        }
+    }],
+    "socketEffects": [],
+    "set": {
+        "name": "Tal Rasha's Elements",
+        "items": [{
+            "id": "Unique_Amulet_007_x1",
+            "name": "Tal Rasha's Allegiance",
+            "icon": "unique_amulet_007_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/tal-rashas-allegiance"
+        }, {
+            "id": "Unique_Belt_006_x1",
+            "name": "Tal Rasha's Brace",
+            "icon": "unique_belt_006_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/tal-rashas-brace"
+        }, {
+            "id": "Unique_Helm_010_x1",
+            "name": "Tal Rasha's Guise of Wisdom",
+            "icon": "unique_helm_010_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/tal-rashas-guise-of-wisdom"
+        }, {
+            "id": "Unique_Chest_014_x1",
+            "name": "Tal Rasha's Relentless Pursuit",
+            "icon": "unique_chest_014_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/tal-rashas-relentless-pursuit"
+        }, {
+            "id": "Unique_Orb_012_x1",
+            "name": "Tal Rasha's Unwavering Glare",
+            "icon": "unique_orb_012_x1_demonhunter_male",
+            "displayColor": "green",
+            "tooltipParams": "item/tal-rashas-unwavering-glare"
+        }],
+        "slug": "tal-rashas-elements",
+        "ranks": [{
+            "required": 2,
+            "attributes": {
+                "primary": [{
+                    "text": "Cold skills deal 5% more damage.",
+                    "color": "blue",
+                    "affixType": "utility"
+                }, {
+                    "text": "Fire skills deal 5% more damage.",
+                    "color": "blue",
+                    "affixType": "utility"
+                }, {
+                    "text": "Lightning skills deal 5% more damage.",
+                    "color": "blue",
+                    "affixType": "utility"
+                }, {
+                    "text": "Arcane skills deal 5% more damage.",
+                    "color": "blue",
+                    "affixType": "utility"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Damage_Dealt_Percent_Bonus#Fire": {
+                    "min": 0.05,
+                    "max": 0.05
+                },
+                "Damage_Dealt_Percent_Bonus#Cold": {
+                    "min": 0.05,
+                    "max": 0.05
+                },
+                "Damage_Dealt_Percent_Bonus#Arcane": {
+                    "min": 0.05,
+                    "max": 0.05
+                },
+                "Damage_Dealt_Percent_Bonus#Lightning": {
+                    "min": 0.05,
+                    "max": 0.05
+                }
+            }
+        }, {
+            "required": 3,
+            "attributes": {
+                "primary": [{
+                    "text": "+100 Resistance to All Elements",
+                    "color": "blue",
+                    "affixType": "default"
+                }, {
+                    "text": "Increases Arcane Power Regeneration by 2.00 per Second (Wizard Only)",
+                    "color": "blue",
+                    "affixType": "utility"
+                }],
+                "secondary": [],
+                "passive": []
+            },
+            "attributesRaw": {
+                "Resource_Regen_Per_Second#Arcanum": {
+                    "min": 2.0,
+                    "max": 2.0
+                },
+                "Resistance_All": {
+                    "min": 100.0,
+                    "max": 100.0
+                }
+            }
+        }, {
+            "required": 4,
+            "attributes": {
+                "primary": [],
+                "secondary": [],
+                "passive": [{
+                    "text": "Damaging enemies with Arcane, Cold, Fire or Lightning will cause a Meteor of the same damage type to fall from the sky. There is an 8 second cooldown for each damage type.",
+                    "color": "orange",
+                    "affixType": "default"
+                }]
+            },
+            "attributesRaw": {
+                "Item_Power_Passive#ItemPassive_Unique_Ring_710_x1": {
+                    "min": 1.0,
+                    "max": 1.0
+                }
+            }
+        }]
+    },
+    "craftedBy": [],
+    "seasonRequiredToDrop": -1,
+    "isSeasonRequiredToDrop": false
+}

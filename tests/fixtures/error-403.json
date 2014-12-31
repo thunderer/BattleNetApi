@@ -1,0 +1,5 @@
+{
+  "code": 403,
+  "type": "Forbidden",
+  "detail": "Account Inactive"
+}
