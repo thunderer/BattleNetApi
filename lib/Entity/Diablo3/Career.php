@@ -1,5 +1,7 @@
 <?php
-namespace Thunder\BlizzardApi\Diablo3\Entity;
+namespace Thunder\BlizzardApi\Entity\Diablo3;
+
+use Thunder\BlizzardApi\Entity\Account\BattleTag;
 
 class Career
     {
@@ -26,7 +28,7 @@ class Career
     private $artisansSeason;
     private $artisansSeasonHardcore;
 
-    public function __construct($battleTag, array $heroes,
+    public function __construct(BattleTag $battleTag, array $heroes,
         $paragonLevel, $paragonLevelHardcore,
         $paragonLevelSeason, $paragonLevelSeasonHardcore,
         Artisans $softcore, Artisans $hardcore,
@@ -44,5 +46,10 @@ class Career
         $this->artisansHardcore = $hardcore;
         $this->artisansSeason = $season;
         $this->artisansSeasonHardcore = $seasonHardcore;
+        }
+
+    public function getBattleTag()
+        {
+        return $this->battleTag;
         }
     }

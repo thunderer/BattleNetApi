@@ -1,7 +1,7 @@
 <?php
-namespace Thunder\BlizzardApi\Account\Request;
+namespace Thunder\BlizzardApi\Request\Account;
 
-use Thunder\BlizzardApi\Account\Parser\BattleTagParser;
+use Thunder\BlizzardApi\Parser\Account\BattleTagParser;
 use Thunder\BlizzardApi\RequestInterface;
 
 class BattleTagRequest implements RequestInterface

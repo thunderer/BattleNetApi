@@ -1,5 +1,5 @@
 <?php
-namespace Thunder\BlizzardApi\Diablo3\Entity;
+namespace Thunder\BlizzardApi\Entity\Diablo3;
 
 class Followers
     {

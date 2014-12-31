@@ -75,6 +75,7 @@ final class Client
     private function getCallUrl($path)
         {
         return 'https://'.static::$hosts[$this->region].'/'.$path.http_build_query(array(
+            'locale' => $this->locale,
             'access_token' => $this->application->getKey(),
             ));
         }

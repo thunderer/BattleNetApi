@@ -1,8 +1,7 @@
 <?php
 namespace Thunder\BlizzardApi\Tests;
 
-use Thunder\BlizzardApi\Account\Entity\Account;
-use Thunder\BlizzardApi\Account\Entity\BattleTag;
+use Thunder\BlizzardApi\Entity\Account\Account;
 
 class AccountTest extends \PHPUnit_Framework_TestCase
     {

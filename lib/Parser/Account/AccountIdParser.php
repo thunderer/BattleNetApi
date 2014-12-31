@@ -1,11 +1,11 @@
 <?php
-namespace Thunder\BlizzardApi\Account\Parser;
+namespace Thunder\BlizzardApi\Parser\Account;
 
-use Thunder\BlizzardApi\Account\Entity\Account;
-use Thunder\BlizzardApi\Account\Response\AccountResponse;
+use Thunder\BlizzardApi\Entity\Account\Account;
+use Thunder\BlizzardApi\Response\Account\AccountIdResponse;
 use Thunder\BlizzardApi\ParserInterface;
 
-class AccountParser implements ParserInterface
+class AccountIdParser implements ParserInterface
     {
     public function getResponse($response)
         {
@@ -16,6 +16,6 @@ class AccountParser implements ParserInterface
             throw new \RuntimeException('Invalid account response, no account ID found!');
             }
 
-        return new AccountResponse(new Account($json['id']));
+        return new AccountIdResponse(new Account($json['id']));
         }
     }

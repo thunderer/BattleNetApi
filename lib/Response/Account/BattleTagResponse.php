@@ -1,7 +1,7 @@
 <?php
-namespace Thunder\BlizzardApi\Account\Response;
+namespace Thunder\BlizzardApi\Response\Account;
 
-use Thunder\BlizzardApi\Account\Entity\BattleTag;
+use Thunder\BlizzardApi\Entity\Account\BattleTag;
 use Thunder\BlizzardApi\ResponseInterface;
 
 class BattleTagResponse implements ResponseInterface

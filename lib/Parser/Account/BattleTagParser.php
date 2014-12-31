@@ -1,8 +1,8 @@
 <?php
-namespace Thunder\BlizzardApi\Account\Parser;
+namespace Thunder\BlizzardApi\Parser\Account;
 
-use Thunder\BlizzardApi\Account\Entity\BattleTag;
-use Thunder\BlizzardApi\Account\Response\BattleTagResponse;
+use Thunder\BlizzardApi\Entity\Account\BattleTag;
+use Thunder\BlizzardApi\Response\Account\BattleTagResponse;
 use Thunder\BlizzardApi\ParserInterface;
 
 class BattleTagParser implements ParserInterface

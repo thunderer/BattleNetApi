@@ -1,10 +1,10 @@
 <?php
-namespace Thunder\BlizzardApi\Account\Response;
+namespace Thunder\BlizzardApi\Response\Account;
 
-use Thunder\BlizzardApi\Account\Entity\Account;
+use Thunder\BlizzardApi\Entity\Account\Account;
 use Thunder\BlizzardApi\ResponseInterface;
 
-class AccountResponse implements ResponseInterface
+class AccountIdResponse implements ResponseInterface
     {
     private $account;
 

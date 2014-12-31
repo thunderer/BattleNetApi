@@ -1,5 +1,5 @@
 <?php
-namespace Thunder\BlizzardApi\Diablo3\Entity;
+namespace Thunder\BlizzardApi\Entity\Diablo3;
 
 class Hero
     {
@@ -42,7 +42,7 @@ class Hero
     private $lastUpdated;
 
     public function __construct($id, $name, $class, $gender, $level, $paragonLevel,
-                                HeroEquipment $equipment, Followers $followers,
+                                HeroEquipment $equipment = null, Followers $followers = null,
                                 $isDead, $lastUpdated)
         {
         $this->id = $id;

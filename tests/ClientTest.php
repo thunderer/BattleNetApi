@@ -1,25 +1,28 @@
 <?php
 namespace Thunder\BlizzardApi\Tests;
 
-use Thunder\BlizzardApi\Account\Request\AccountRequest;
-use Thunder\BlizzardApi\Account\Request\BattleTagRequest;
-use Thunder\BlizzardApi\Account\Response\AccountResponse;
-use Thunder\BlizzardApi\Account\Response\BattleTagResponse;
+use Thunder\BlizzardApi\Entity\Account\BattleTag;
+use Thunder\BlizzardApi\Request\Account\AccountIdRequest;
+use Thunder\BlizzardApi\Request\Account\BattleTagRequest;
+use Thunder\BlizzardApi\Request\Diablo3\CareerRequest;
+use Thunder\BlizzardApi\Response\Account\AccountIdResponse;
+use Thunder\BlizzardApi\Response\Account\BattleTagResponse;
 use Thunder\BlizzardApi\Application;
 use Thunder\BlizzardApi\Client;
 use Thunder\BlizzardApi\Connector\MockConnector;
 use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\Response\Diablo3\CareerResponse;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
     {
     /**
-     * @param string $fixture Raw response file
      * @param RequestInterface $request Request object to process
      * @param callable $tests Tests to perform on response object
+     * @param string $fixture Raw response file
      *
      * @dataProvider provideApis
      */
-    public function testApis($fixture, RequestInterface $request, callable $tests)
+    public function testApis(RequestInterface $request, callable $tests, $fixture)
         {
         $rawResponse = file_get_contents(__DIR__.'/fixtures/'.$fixture);
         $app = new Application('name', 'key', 'secret');
@@ -30,12 +33,15 @@ class ClientTest extends \PHPUnit_Framework_TestCase
     public function provideApis()
         {
         return array(
-            array('account/account-id.json', new AccountRequest(), function(AccountResponse $response) {
+            array(new AccountIdRequest(), function(AccountIdResponse $response) {
                 $this->assertEquals(124737523, $response->getAccount()->getId());
-                }),
-            array('account/battle-tag.json', new BattleTagRequest(), function(BattleTagResponse $response) {
+                }, 'account/account-id.json'),
+            array(new BattleTagRequest(), function(BattleTagResponse $response) {
                 $this->assertEquals('Thunderer#1926', $response->getBattleTag()->getBattleTag());
-                }),
+                }, 'account/battle-tag.json'),
+            array(new CareerRequest(new BattleTag('Thunderer#1926')), function(CareerResponse $response) {
+                $this->assertEquals('Thunderer#1926', $response->getCareer()->getBattleTag()->getBattleTag());
+                }, 'diablo3/career.json'),
             );
         }
     }

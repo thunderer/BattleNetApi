@@ -1,5 +1,5 @@
 <?php
-namespace Thunder\BlizzardApi\Account\Entity;
+namespace Thunder\BlizzardApi\Entity\Account;
 
 class Account
     {
