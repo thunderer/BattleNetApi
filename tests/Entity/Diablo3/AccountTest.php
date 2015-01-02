@@ -1,5 +1,5 @@
 <?php
-namespace Thunder\BlizzardApi\Tests\Diablo3\Entity;
+namespace Thunder\BlizzardApi\Tests\Entity\Diablo3;
 
 use Thunder\BlizzardApi\Entity\Account\Account;
 

@@ -6,13 +6,15 @@ class Follower
     private $slug;
     private $name;
     private $realName;
+    private $portrait;
     private $skills;
 
-    public function __construct($slug, $name, $realName, array $skills)
+    public function __construct($slug, $name, $realName, $portrait, Skills $skills)
         {
         $this->slug = $slug;
         $this->name = $name;
         $this->realName = $realName;
+        $this->portrait = $portrait;
         $this->skills = $skills;
         }
 
@@ -29,6 +31,11 @@ class Follower
     public function getRealName()
         {
         return $this->realName;
+        }
+
+    public function getPortrait()
+        {
+        return $this->portrait;
         }
 
     public function getSkills()

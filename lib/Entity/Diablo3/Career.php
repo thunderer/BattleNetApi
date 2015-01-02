@@ -28,19 +28,22 @@ class Career
     private $artisansSeason;
     private $artisansSeasonHardcore;
 
-    public function __construct(BattleTag $battleTag, array $heroes,
+    public function __construct(BattleTag $battleTag, array $heroes, array $fallenHeroes,
         $paragonLevel, $paragonLevelHardcore,
         $paragonLevelSeason, $paragonLevelSeasonHardcore,
+        $highestHardcoreLevel,
         Artisans $artisans, Artisans $artisansHardcore,
         Artisans $artisansSeason, Artisans $artisansSeasonHardcore)
         {
         $this->battleTag = $battleTag;
         $this->heroes = $heroes;
+        $this->fallenHeroes = $fallenHeroes;
 
         $this->paragonLevel = $paragonLevel;
         $this->paragonLevelHardcore = $paragonLevelHardcore;
         $this->paragonLevelSeason = $paragonLevelSeason;
         $this->paragonLevelSeasonHardcore = $paragonLevelSeasonHardcore;
+        $this->highestHardcoreLevel = $highestHardcoreLevel;
 
         $this->artisans = $artisans;
         $this->artisansHardcore = $artisansHardcore;
@@ -56,6 +59,11 @@ class Career
     public function getHeroes()
         {
         return $this->heroes;
+        }
+
+    public function getFallenHeroes()
+        {
+        return $this->fallenHeroes;
         }
 
     public function getParagonLevel()
@@ -76,6 +84,11 @@ class Career
     public function getParagonLevelSeasonHardcore()
         {
         return $this->paragonLevelSeasonHardcore;
+        }
+
+    public function getHighestHardcoreLevel()
+        {
+        return $this->highestHardcoreLevel;
         }
 
     public function getArtisans()

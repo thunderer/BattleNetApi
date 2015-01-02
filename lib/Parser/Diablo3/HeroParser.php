@@ -1,10 +1,14 @@
 <?php
 namespace Thunder\BlizzardApi\Parser\Diablo3;
 
+use Thunder\BlizzardApi\Entity\Diablo3\Follower;
+use Thunder\BlizzardApi\Entity\Diablo3\Followers;
 use Thunder\BlizzardApi\Entity\Diablo3\Hero;
 use Thunder\BlizzardApi\Entity\Diablo3\HeroEquipment;
 use Thunder\BlizzardApi\Entity\Diablo3\HeroStats;
 use Thunder\BlizzardApi\Entity\Diablo3\Item;
+use Thunder\BlizzardApi\Entity\Diablo3\Skill;
+use Thunder\BlizzardApi\Entity\Diablo3\Skills;
 use Thunder\BlizzardApi\ParserInterface;
 use Thunder\BlizzardApi\Response\Diablo3\HeroResponse;
 
@@ -63,9 +67,14 @@ class HeroParser implements ParserInterface
             $this->getItem($json, 'rightFinger'),
             $this->getItem($json, 'neck'));
 
+        $followers = new Followers(
+            $this->getFollower($json, 'templar'),
+            $this->getFollower($json, 'scoundrel'),
+            $this->getFollower($json, 'enchantress'));
+
         $hero = new Hero($json['id'], $json['name'], $classes[$json['class']],
             $json['gender'], $json['level'], $json['paragonLevel'],
-            $equipment, null, $stats, $json['dead'], $json['hardcore'],
+            $equipment, $followers, $stats, $json['dead'], $json['hardcore'],
             $json['seasonal'], $json['last-updated']);
 
         return new HeroResponse($hero);
@@ -78,5 +87,26 @@ class HeroParser implements ParserInterface
         return new Item($item['id'], $item['name'], $item['icon'],
                         $item['displayColor'], $item['tooltipParams'],
                         null, null, null, array(), array());
+        }
+
+    private function getFollower(array $data, $index)
+        {
+        $item = $data['followers'][$index];
+
+        $skillFn = function(array $data) {
+        if(!array_key_exists('skill', $data))
+            if(!$data)
+                {
+                return null;
+                }
+            $data = $data['skill'];
+
+            return new Skill($data['slug'], $data['name'], $data['icon'],
+                $data['level'], null, $data['tooltipUrl'], $data['description'],
+                $data['simpleDescription'], $data['skillCalcId'], null);
+            };
+        $skills = new Skills(array_filter(array_map($skillFn, $item['skills'])), array());
+
+        return new Follower($item['slug'], null, null, null, $skills);
         }
     }

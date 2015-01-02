@@ -1,3 +1,4 @@
+{
     "slug": "scoundrel",
     "name": "Scoundrel",
     "realName": "d3.follower.scoundrel.realName",
@@ -9,7 +10,7 @@
             "icon": "scoundrel_cripplingshot",
             "level": 5,
             "tooltipUrl": "skill/scoundrel/crippling-shot",
-            "description": "Cooldown: 4 seconds\r\n\r\nRanged attack that deals 140% weapon damage and slows enemies hit by 80% for 4 
+            "description": "Cooldown: 4 seconds\r\n\r\nRanged attack that deals 140% weapon damage and slows enemies hit by 80% for 4
 seconds.",
             "simpleDescription": "Cooldown: 4 seconds\r\n\r\nRanged attack that slows enemies.",
             "skillCalcId": "a"
@@ -19,7 +20,7 @@ seconds.",
             "icon": "scoundrel_poisonarrow",
             "level": 5,
             "tooltipUrl": "skill/scoundrel/poison-bolts",
-            "description": "Cooldown: 3 seconds\r\n\r\nRanged attack that deals 320% weapon damage and an additional 100% weapon damage 
+            "description": "Cooldown: 3 seconds\r\n\r\nRanged attack that deals 320% weapon damage and an additional 100% weapon damage
 as Poison over 3 seconds.",
             "simpleDescription": "Cooldown: 3 seconds\r\n\r\nShoots a deadly poisoned bolt.",
             "skillCalcId": "Z"
@@ -38,7 +39,7 @@ as Poison over 3 seconds.",
             "icon": "scoundrel_vanish",
             "level": 10,
             "tooltipUrl": "skill/scoundrel/vanish",
-            "description": "Cooldown: 30 seconds\r\n\r\nThe Scoundrel vanishes in a cloud of smoke when injured, reappearing after 4 
+            "description": "Cooldown: 30 seconds\r\n\r\nThe Scoundrel vanishes in a cloud of smoke when injured, reappearing after 4
 seconds. While vanished, he will heal himself for 268211 Life.",
             "simpleDescription": "Cooldown: 30 seconds\r\n\r\nThe Scoundrel temporarily vanishes when in danger.",
             "skillCalcId": "Y"
@@ -48,7 +49,7 @@ seconds. While vanished, he will heal himself for 268211 Life.",
             "icon": "scoundrel_powershot",
             "level": 15,
             "tooltipUrl": "skill/scoundrel/powered-shot",
-            "description": "Cooldown: 8 seconds\r\n\r\nRanged attack that explodes on impact, dealing 310% weapon damage as Arcane to 
+            "description": "Cooldown: 8 seconds\r\n\r\nRanged attack that explodes on impact, dealing 310% weapon damage as Arcane to
 enemies within 10 yards and has a 100% chance to Stun enemies for 2 seconds.",
             "simpleDescription": "Cooldown: 8 seconds\r\n\r\nDeals damage in an area that has a chance to Stun enemies.",
             "skillCalcId": "c"
@@ -58,9 +59,9 @@ enemies within 10 yards and has a 100% chance to Stun enemies for 2 seconds.",
             "icon": "x1_scoundrel_multishot",
             "level": 15,
             "tooltipUrl": "skill/scoundrel/multishot",
-            "description": "Cooldown: 8 seconds\r\n\r\nActive: The Scoundrel will shoot 3 bolts, each dealing 110% weapon 
+            "description": "Cooldown: 8 seconds\r\n\r\nActive: The Scoundrel will shoot 3 bolts, each dealing 110% weapon
 damage.\r\n\r\nPassive: The Scoundrel's special attacks have a 50% chance to fire 3 bolts.",
-            "simpleDescription": "Cooldown: 8 seconds\r\n\r\nActive: The Scoundrel will shoot multiple bolts at once.\r\n\r\nPassive: 
+            "simpleDescription": "Cooldown: 8 seconds\r\n\r\nActive: The Scoundrel will shoot multiple bolts at once.\r\n\r\nPassive:
 The Scoundrel's special attacks have a chance to fire multiple bolts.",
             "skillCalcId": "X"
         }, {
@@ -69,7 +70,7 @@ The Scoundrel's special attacks have a chance to fire multiple bolts.",
             "icon": "scoundrel_hysteria",
             "level": 20,
             "tooltipUrl": "skill/scoundrel/hysteria",
-            "description": "Whenever you or the Scoundrel land a Critical Hit, you both will go into hysterics, increasing all damage 
+            "description": "Whenever you or the Scoundrel land a Critical Hit, you both will go into hysterics, increasing all damage
 done by 3% for 3 seconds.",
             "simpleDescription": "Critical Hits cause you and the Scoundrel to temporarily deal more damage.",
             "skillCalcId": "d"

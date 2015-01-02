@@ -23,10 +23,19 @@ class CareerParser implements ParserInterface
                 null, null, null, $data['dead'], $data['hardcore'],
                 $data['seasonal'], $data['last-updated']);
             }, $json['heroes']);
+        $fallenHeroes = array_map(function(array $data) {
+            $classes = array_flip(Hero::getClassAliases());
 
-        $career = new Career(new BattleTag($json['battleTag']), $heroes,
+            return new Hero(null, $data['name'], $classes[$data['class']],
+                $data['gender'], $data['level'], null,
+                null, null, null, true, $data['hardcore'],
+                false, null);
+            }, $json['fallenHeroes']);
+
+        $career = new Career(new BattleTag($json['battleTag']), $heroes, $fallenHeroes,
             $json['paragonLevel'], $json['paragonLevelHardcore'],
             $json['paragonLevelSeason'], $json['paragonLevelSeasonHardcore'],
+            $json['highestHardcoreLevel'],
             $this->getArtisans($json, 'blacksmith', 'jeweler', 'mystic'),
             $this->getArtisans($json, 'blacksmithHardcore', 'jewelerHardcore', 'mysticHardcore'),
             $this->getArtisans($json, 'blacksmithSeason', 'jewelerSeason', 'mysticSeason'),
@@ -47,6 +56,8 @@ class CareerParser implements ParserInterface
         {
         return new Artisan(
             $data[$index]['slug'],
+            null,
+            null,
             $data[$index]['level'],
             $data[$index]['stepCurrent'],
             $data[$index]['stepMax']);

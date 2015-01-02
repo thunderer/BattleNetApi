@@ -6,7 +6,6 @@ use Thunder\BlizzardApi\RequestInterface;
 
 class AccountIdRequest implements RequestInterface
     {
-
     public function getPath()
         {
         return '/account/user/id';

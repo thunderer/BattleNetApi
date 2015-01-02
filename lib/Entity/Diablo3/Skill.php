@@ -16,7 +16,7 @@ class Skill
 
     public function __construct($slug, $name, $icon, $level, $categorySlug,
                                 $tooltipUrl, $description, $simpleDescription,
-                                $skillCalcId, SkillRune $rune)
+                                $skillCalcId, SkillRune $rune = null)
         {
         $this->slug = $slug;
         $this->name = $name;
