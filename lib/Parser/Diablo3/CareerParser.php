@@ -20,7 +20,8 @@ class CareerParser implements ParserInterface
 
             return new Hero($data['id'], $data['name'], $classes[$data['class']],
                 $data['gender'], $data['level'], $data['paragonLevel'],
-                null, null, $data['dead'], $data['last-updated']);
+                null, null, null, $data['dead'], $data['hardcore'],
+                $data['seasonal'], $data['last-updated']);
             }, $json['heroes']);
 
         $career = new Career(new BattleTag($json['battleTag']), $heroes,

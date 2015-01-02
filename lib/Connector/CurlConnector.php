@@ -5,6 +5,13 @@ use Thunder\BlizzardApi\ConnectorInterface;
 
 class CurlConnector implements ConnectorInterface
     {
+    /**
+     * @codeCoverageIgnore
+     *
+     * @param $url
+     *
+     * @return string
+     */
     public function getResponse($url)
         {
         $curl = curl_init($url);

@@ -33,17 +33,21 @@ class Hero
     private $gender;
     private $level;
     private $paragonLevel;
+    private $isHardcore;
     private $isSeasonal;
     private $seasonCreated;
     private $skills = array();
-
-    private $followers;
     private $isDead;
     private $lastUpdated;
 
+    private $equipment;
+    private $followers;
+    private $stats;
+
     public function __construct($id, $name, $class, $gender, $level, $paragonLevel,
-                                HeroEquipment $equipment = null, Followers $followers = null,
-                                $isDead, $lastUpdated)
+                                HeroEquipment $equipment = null,
+                                Followers $followers = null, HeroStats $stats = null,
+                                $isDead, $isHardcore, $isSeasonal, $lastUpdated)
         {
         $this->id = $id;
         $this->name = $name;
@@ -53,7 +57,13 @@ class Hero
         $this->paragonLevel = $paragonLevel;
         $this->followers = $followers;
         $this->isDead = $isDead;
+        $this->isHardcore = $isHardcore;
+        $this->isSeasonal = $isSeasonal;
         $this->lastUpdated = $lastUpdated;
+
+        $this->equipment = $equipment;
+        $this->followers = $followers;
+        $this->stats = $stats;
         }
 
     public static function getClassAliases()
@@ -84,5 +94,22 @@ class Hero
             }
 
         $this->gender = $gender;
+        }
+
+    /* --- GETTERS --------------------------------------------------------- */
+
+    public function getId()
+        {
+        return $this->id;
+        }
+
+    public function getName()
+        {
+        return $this->name;
+        }
+
+    public function getClass()
+        {
+        return $this->class;
         }
     }

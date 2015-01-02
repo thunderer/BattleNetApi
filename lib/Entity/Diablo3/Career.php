@@ -23,7 +23,7 @@ class Career
     private $progression;
     private $seasonalProfiles;
 
-    private $artisansSoftcore;
+    private $artisans;
     private $artisansHardcore;
     private $artisansSeason;
     private $artisansSeasonHardcore;
@@ -31,8 +31,8 @@ class Career
     public function __construct(BattleTag $battleTag, array $heroes,
         $paragonLevel, $paragonLevelHardcore,
         $paragonLevelSeason, $paragonLevelSeasonHardcore,
-        Artisans $softcore, Artisans $hardcore,
-        Artisans $season, Artisans $seasonHardcore)
+        Artisans $artisans, Artisans $artisansHardcore,
+        Artisans $artisansSeason, Artisans $artisansSeasonHardcore)
         {
         $this->battleTag = $battleTag;
         $this->heroes = $heroes;
@@ -42,14 +42,59 @@ class Career
         $this->paragonLevelSeason = $paragonLevelSeason;
         $this->paragonLevelSeasonHardcore = $paragonLevelSeasonHardcore;
 
-        $this->artisansSoftcore = $softcore;
-        $this->artisansHardcore = $hardcore;
-        $this->artisansSeason = $season;
-        $this->artisansSeasonHardcore = $seasonHardcore;
+        $this->artisans = $artisans;
+        $this->artisansHardcore = $artisansHardcore;
+        $this->artisansSeason = $artisansSeason;
+        $this->artisansSeasonHardcore = $artisansSeasonHardcore;
         }
 
     public function getBattleTag()
         {
         return $this->battleTag;
+        }
+
+    public function getHeroes()
+        {
+        return $this->heroes;
+        }
+
+    public function getParagonLevel()
+        {
+        return $this->paragonLevel;
+        }
+
+    public function getParagonLevelHardcore()
+        {
+        return $this->paragonLevelHardcore;
+        }
+
+    public function getParagonLevelSeason()
+        {
+        return $this->paragonLevelSeason;
+        }
+
+    public function getParagonLevelSeasonHardcore()
+        {
+        return $this->paragonLevelSeasonHardcore;
+        }
+
+    public function getArtisans()
+        {
+        return $this->artisans;
+        }
+
+    public function getArtisansHardcore()
+        {
+        return $this->artisansHardcore;
+        }
+
+    public function getArtisansSeason()
+        {
+        return $this->artisansSeason;
+        }
+
+    public function getArtisansSeasonHardcore()
+        {
+        return $this->artisansSeasonHardcore;
         }
     }
