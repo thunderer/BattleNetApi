@@ -2,9 +2,9 @@
 namespace Thunder\BlizzardApi\Endpoint\Diablo3;
 
 use Thunder\BlizzardApi\Entity\Diablo3\Artisan;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class ArtisanEndpoint implements RequestInterface
+class ArtisanEndpoint implements EndpointInterface
     {
     private $artisan;
 

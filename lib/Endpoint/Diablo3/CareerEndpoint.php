@@ -6,9 +6,9 @@ use Thunder\BlizzardApi\Entity\Diablo3\Artisan;
 use Thunder\BlizzardApi\Entity\Diablo3\Artisans;
 use Thunder\BlizzardApi\Entity\Diablo3\Career;
 use Thunder\BlizzardApi\Entity\Diablo3\Hero;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class CareerEndpoint implements RequestInterface
+class CareerEndpoint implements EndpointInterface
     {
     private $battleTag;
 

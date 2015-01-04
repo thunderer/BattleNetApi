@@ -9,7 +9,7 @@ final class Client
     const REGION_TAIWAN = 4;
     const REGION_CHINA = 5;
 
-    protected static $hosts = array(
+    private static $hosts = array(
         self::REGION_EUROPE => 'eu.api.battle.net',
         self::REGION_UNITED_STATES => 'us.api.battle.net',
         self::REGION_KOREA => 'kr.api.battle.net',
@@ -26,6 +26,7 @@ final class Client
 
     private $application;
     private $region;
+    private $host;
     private $locale;
     private $connector;
 
@@ -46,6 +47,7 @@ final class Client
             }
 
         $this->region = $region;
+        $this->host = static::$hosts[$region];
         }
 
     private function setLocale($locale)
@@ -60,11 +62,11 @@ final class Client
         }
 
     /**
-     * @param RequestInterface $request
+     * @param EndpointInterface $request
      *
-     * @return ResponseInterface
+     * @return mixed
      */
-    public function getResponse(RequestInterface $request)
+    public function getResponse(EndpointInterface $request)
         {
         $targetUrl = $this->getCallUrl($request->getPath());
         $rawResponse = $this->connector->getResponse($targetUrl);
@@ -74,7 +76,7 @@ final class Client
 
     private function getCallUrl($path)
         {
-        return 'https://'.static::$hosts[$this->region].'/'.$path.http_build_query(array(
+        return 'https://'.$this->host.'/'.$path.http_build_query(array(
             'locale' => $this->locale,
             'access_token' => $this->application->getKey(),
             ));

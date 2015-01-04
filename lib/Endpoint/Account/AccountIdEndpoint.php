@@ -2,9 +2,9 @@
 namespace Thunder\BlizzardApi\Endpoint\Account;
 
 use Thunder\BlizzardApi\Entity\Account\Account;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class AccountIdEndpoint implements RequestInterface
+class AccountIdEndpoint implements EndpointInterface
     {
     public function getPath()
         {

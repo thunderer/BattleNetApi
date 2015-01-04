@@ -2,9 +2,9 @@
 namespace Thunder\BlizzardApi\Endpoint\Account;
 
 use Thunder\BlizzardApi\Entity\Account\BattleTag;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class BattleTagEndpoint implements RequestInterface
+class BattleTagEndpoint implements EndpointInterface
     {
     public function getPath()
         {

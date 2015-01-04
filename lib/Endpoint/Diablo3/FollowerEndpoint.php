@@ -4,9 +4,9 @@ namespace Thunder\BlizzardApi\Endpoint\Diablo3;
 use Thunder\BlizzardApi\Entity\Diablo3\Follower;
 use Thunder\BlizzardApi\Entity\Diablo3\Skill;
 use Thunder\BlizzardApi\Entity\Diablo3\Skills;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class FollowerEndpoint implements RequestInterface
+class FollowerEndpoint implements EndpointInterface
     {
     private $follower;
 

@@ -10,9 +10,9 @@ use Thunder\BlizzardApi\Entity\Diablo3\HeroStats;
 use Thunder\BlizzardApi\Entity\Diablo3\Item;
 use Thunder\BlizzardApi\Entity\Diablo3\Skill;
 use Thunder\BlizzardApi\Entity\Diablo3\Skills;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class HeroEndpoint implements RequestInterface
+class HeroEndpoint implements EndpointInterface
     {
     private $battleTag;
     private $heroId;

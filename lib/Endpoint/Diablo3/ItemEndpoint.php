@@ -5,9 +5,9 @@ use Thunder\BlizzardApi\Entity\Diablo3\Attribute;
 use Thunder\BlizzardApi\Entity\Diablo3\AttributeRaw;
 use Thunder\BlizzardApi\Entity\Diablo3\Attributes;
 use Thunder\BlizzardApi\Entity\Diablo3\Item;
-use Thunder\BlizzardApi\RequestInterface;
+use Thunder\BlizzardApi\EndpointInterface;
 
-class ItemEndpoint implements RequestInterface
+class ItemEndpoint implements EndpointInterface
     {
     private $data;
 

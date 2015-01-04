@@ -1,7 +1,7 @@
 <?php
 namespace Thunder\BlizzardApi;
 
-interface RequestInterface
+interface EndpointInterface
     {
     /**
      * Returns API endpoint URL path fragment

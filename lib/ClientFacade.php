@@ -20,7 +20,7 @@ class ClientFacade
         $this->client = $client;
         }
 
-    private function getResponse(RequestInterface $request)
+    private function getResponse(EndpointInterface $request)
         {
         return $this->client->getResponse($request);
         }
