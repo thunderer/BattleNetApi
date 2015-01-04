@@ -1,16 +1,27 @@
 <?php
-namespace Thunder\BlizzardApi\Parser\Diablo3;
+namespace Thunder\BlizzardApi\Endpoint\Diablo3;
 
+use Thunder\BlizzardApi\Entity\Account\BattleTag;
 use Thunder\BlizzardApi\Entity\Diablo3\Artisan;
 use Thunder\BlizzardApi\Entity\Diablo3\Artisans;
 use Thunder\BlizzardApi\Entity\Diablo3\Career;
 use Thunder\BlizzardApi\Entity\Diablo3\Hero;
-use Thunder\BlizzardApi\Entity\Account\BattleTag;
-use Thunder\BlizzardApi\ParserInterface;
-use Thunder\BlizzardApi\Response\Diablo3\CareerResponse;
+use Thunder\BlizzardApi\RequestInterface;
 
-class CareerParser implements ParserInterface
+class CareerEndpoint implements RequestInterface
     {
+    private $battleTag;
+
+    public function __construct(BattleTag $battleTag)
+        {
+        $this->battleTag = $battleTag;
+        }
+
+    public function getPath()
+        {
+        return '/d3/profile/'.$this->battleTag->getBattleTag();
+        }
+
     public function getResponse($response)
         {
         $json = json_decode($response, true);
@@ -41,7 +52,7 @@ class CareerParser implements ParserInterface
             $this->getArtisans($json, 'blacksmithSeason', 'jewelerSeason', 'mysticSeason'),
             $this->getArtisans($json, 'blacksmithSeasonHardcore', 'jewelerSeasonHardcore', 'mysticSeasonHardcore'));
 
-        return new CareerResponse($career);
+        return $career;
         }
 
     private function getArtisans(array $data, $blacksmith, $jeweler, $mystic)

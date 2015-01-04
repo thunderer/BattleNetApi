@@ -69,7 +69,7 @@ final class Client
         $targetUrl = $this->getCallUrl($request->getPath());
         $rawResponse = $this->connector->getResponse($targetUrl);
 
-        return $request->getParser()->getResponse($rawResponse);
+        return $request->getResponse($rawResponse);
         }
 
     private function getCallUrl($path)

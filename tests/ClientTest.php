@@ -2,25 +2,16 @@
 namespace Thunder\BlizzardApi\Tests;
 
 use Thunder\BlizzardApi\ClientFacade;
+use Thunder\BlizzardApi\Entity\Account\Account;
 use Thunder\BlizzardApi\Entity\Account\BattleTag;
-use Thunder\BlizzardApi\Request\Account\AccountIdRequest;
-use Thunder\BlizzardApi\Request\Account\BattleTagRequest;
-use Thunder\BlizzardApi\Request\Diablo3\ArtisanRequest;
-use Thunder\BlizzardApi\Request\Diablo3\CareerRequest;
-use Thunder\BlizzardApi\Request\Diablo3\FollowerRequest;
-use Thunder\BlizzardApi\Request\Diablo3\HeroRequest;
-use Thunder\BlizzardApi\Request\Diablo3\ItemRequest;
-use Thunder\BlizzardApi\RequestInterface;
-use Thunder\BlizzardApi\Response\Account\AccountIdResponse;
-use Thunder\BlizzardApi\Response\Account\BattleTagResponse;
+use Thunder\BlizzardApi\Entity\Diablo3\Artisan;
+use Thunder\BlizzardApi\Entity\Diablo3\Career;
+use Thunder\BlizzardApi\Entity\Diablo3\Follower;
+use Thunder\BlizzardApi\Entity\Diablo3\Hero;
+use Thunder\BlizzardApi\Entity\Diablo3\Item;
 use Thunder\BlizzardApi\Application;
 use Thunder\BlizzardApi\Client;
 use Thunder\BlizzardApi\Connector\MockConnector;
-use Thunder\BlizzardApi\Response\Diablo3\ArtisanResponse;
-use Thunder\BlizzardApi\Response\Diablo3\CareerResponse;
-use Thunder\BlizzardApi\Response\Diablo3\FollowerResponse;
-use Thunder\BlizzardApi\Response\Diablo3\HeroResponse;
-use Thunder\BlizzardApi\Response\Diablo3\ItemResponse;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
     {
@@ -34,14 +25,10 @@ class ClientTest extends \PHPUnit_Framework_TestCase
      */
     public function testApis($method, $requestArgs, callable $tests, $fixture)
         {
-        // $reflectionClass = new \ReflectionClass($requestClass);
-        // /** @var $request RequestInterface */
-        // $request = $reflectionClass->newInstanceArgs($requestArgs);
         $rawResponse = file_get_contents(__DIR__.'/fixtures/'.$fixture);
         $app = new Application('name', 'key', 'secret');
         $client = new Client($app, Client::REGION_EUROPE, 'en_GB', new MockConnector($rawResponse));
         $facade = new ClientFacade($client);
-        // $tests($client->getResponse($request));
         $tests(call_user_func_array(array($facade, $method), $requestArgs));
         }
 
@@ -49,60 +36,58 @@ class ClientTest extends \PHPUnit_Framework_TestCase
         {
         return array(
             // Account API
-            array('getAccountId', array(), function(AccountIdResponse $response) {
-                $this->assertEquals(124737523, $response->getAccount()->getId());
+            array('getAccountId', array(), function(Account $response) {
+                $this->assertEquals(124737523, $response->getId());
                 }, 'account/account-id.json'),
-            array('getBattleTag', array(), function(BattleTagResponse $response) {
-                $this->assertEquals('Thunderer#1926', $response->getBattleTag()->getBattleTag());
+            array('getBattleTag', array(), function(BattleTag $response) {
+                $this->assertEquals('Thunderer#1926', $response->getBattleTag());
                 }, 'account/battle-tag.json'),
 
             // Diablo3 API
-            array('getDiablo3Career', array(new BattleTag('Thunderer#1926')), function(CareerResponse $response) {
-                $career = $response->getCareer();
-
-                $this->assertSame('Thunderer#1926', $career->getBattleTag()->getBattleTag());
-                $this->assertSame(281, $career->getParagonLevel());
-                $this->assertSame(4, $career->getParagonLevelHardcore());
-                $this->assertSame(0, $career->getParagonLevelSeason());
-                $this->assertSame(0, $career->getParagonLevelSeasonHardcore());
-                $this->assertCount(8, $career->getHeroes());
-                $this->assertCount(2, $career->getFallenHeroes());
-                $this->assertSame(70, $career->getHighestHardcoreLevel());
+            array('getDiablo3Career', array(new BattleTag('Thunderer#1926')), function(Career $response) {
+                $this->assertSame('Thunderer#1926', $response->getBattleTag()->getBattleTag());
+                $this->assertSame(281, $response->getParagonLevel());
+                $this->assertSame(4, $response->getParagonLevelHardcore());
+                $this->assertSame(0, $response->getParagonLevelSeason());
+                $this->assertSame(0, $response->getParagonLevelSeasonHardcore());
+                $this->assertCount(8, $response->getHeroes());
+                $this->assertCount(2, $response->getFallenHeroes());
+                $this->assertSame(70, $response->getHighestHardcoreLevel());
                 }, 'diablo3/career.json'),
 
-            array('getDiablo3Hero', array(new BattleTag('Thunderer#1926'), 438767), function(HeroResponse $response) {
-                $this->assertEquals('Thunderer', $response->getHero()->getName());
+            array('getDiablo3Hero', array(new BattleTag('Thunderer#1926'), 438767), function(Hero $response) {
+                $this->assertEquals('Thunderer', $response->getName());
                 }, 'diablo3/hero.json'),
 
-            array('getDiablo3Item', array('that-long-string'), function(ItemResponse $response) {
-                $this->assertEquals('Tal Rasha\'s Guise of Wisdom', $response->getItem()->getName());
-                $this->assertCount(15, $response->getItem()->getAttributesRaw());
+            array('getDiablo3Item', array('that-long-string'), function(Item $response) {
+                $this->assertEquals('Tal Rasha\'s Guise of Wisdom', $response->getName());
+                $this->assertCount(15, $response->getAttributesRaw());
                 }, 'diablo3/item.json'),
 
-            array('getDiablo3Follower', array('templar'), function(FollowerResponse $response) {
-                $this->assertEquals('templar', $response->getFollower()->getSlug());
-                $this->assertCount(8, $response->getFollower()->getSkills()->getActive());
-                $this->assertCount(0, $response->getFollower()->getSkills()->getPassive());
+            array('getDiablo3Follower', array('templar'), function(Follower $response) {
+                $this->assertEquals('templar', $response->getSlug());
+                $this->assertCount(8, $response->getSkills()->getActive());
+                $this->assertCount(0, $response->getSkills()->getPassive());
                 }, 'diablo3/follower-templar.json'),
-            array('getDiablo3Follower', array('scoundrel'), function(FollowerResponse $response) {
-                $this->assertEquals('scoundrel', $response->getFollower()->getSlug());
-                $this->assertCount(8, $response->getFollower()->getSkills()->getActive());
-                $this->assertCount(0, $response->getFollower()->getSkills()->getPassive());
+            array('getDiablo3Follower', array('scoundrel'), function(Follower $response) {
+                $this->assertEquals('scoundrel', $response->getSlug());
+                $this->assertCount(8, $response->getSkills()->getActive());
+                $this->assertCount(0, $response->getSkills()->getPassive());
                 }, 'diablo3/follower-scoundrel.json'),
-            array('getDiablo3Follower', array('enchantress'), function(FollowerResponse $response) {
-                $this->assertEquals('enchantress', $response->getFollower()->getSlug());
-                $this->assertCount(8, $response->getFollower()->getSkills()->getActive());
-                $this->assertCount(0, $response->getFollower()->getSkills()->getPassive());
+            array('getDiablo3Follower', array('enchantress'), function(Follower $response) {
+                $this->assertEquals('enchantress', $response->getSlug());
+                $this->assertCount(8, $response->getSkills()->getActive());
+                $this->assertCount(0, $response->getSkills()->getPassive());
                 }, 'diablo3/follower-enchantress.json'),
 
-            array('getDiablo3Artisan', array('blacksmith'), function(ArtisanResponse $response) {
-                $this->assertEquals('blacksmith', $response->getArtisan()->getSlug());
+            array('getDiablo3Artisan', array('blacksmith'), function(Artisan $response) {
+                $this->assertEquals('blacksmith', $response->getSlug());
                 }, 'diablo3/artisan-blacksmith.json'),
-            array('getDiablo3Artisan', array('jeweler'), function(ArtisanResponse $response) {
-                $this->assertEquals('jeweler', $response->getArtisan()->getSlug());
+            array('getDiablo3Artisan', array('jeweler'), function(Artisan $response) {
+                $this->assertEquals('jeweler', $response->getSlug());
                 }, 'diablo3/artisan-jeweler.json'),
-            array('getDiablo3Artisan', array('mystic'), function(ArtisanResponse $response) {
-                $this->assertEquals('mystic', $response->getArtisan()->getSlug());
+            array('getDiablo3Artisan', array('mystic'), function(Artisan $response) {
+                $this->assertEquals('mystic', $response->getSlug());
                 }, 'diablo3/artisan-mystic.json'),
 
             // StarCraft2 API

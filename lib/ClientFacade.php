@@ -2,13 +2,13 @@
 namespace Thunder\BlizzardApi;
 
 use Thunder\BlizzardApi\Entity\Account\BattleTag;
-use Thunder\BlizzardApi\Request\Account\AccountIdRequest;
-use Thunder\BlizzardApi\Request\Account\BattleTagRequest;
-use Thunder\BlizzardApi\Request\Diablo3\ArtisanRequest;
-use Thunder\BlizzardApi\Request\Diablo3\CareerRequest;
-use Thunder\BlizzardApi\Request\Diablo3\FollowerRequest;
-use Thunder\BlizzardApi\Request\Diablo3\HeroRequest;
-use Thunder\BlizzardApi\Request\Diablo3\ItemRequest;
+use Thunder\BlizzardApi\Endpoint\Account\AccountIdEndpoint;
+use Thunder\BlizzardApi\Endpoint\Account\BattleTagEndpoint;
+use Thunder\BlizzardApi\Endpoint\Diablo3\ArtisanEndpoint;
+use Thunder\BlizzardApi\Endpoint\Diablo3\CareerEndpoint;
+use Thunder\BlizzardApi\Endpoint\Diablo3\FollowerEndpoint;
+use Thunder\BlizzardApi\Endpoint\Diablo3\HeroEndpoint;
+use Thunder\BlizzardApi\Endpoint\Diablo3\ItemEndpoint;
 
 class ClientFacade
     {
@@ -27,36 +27,36 @@ class ClientFacade
 
     public function getAccountId()
         {
-        return $this->getResponse(new AccountIdRequest());
+        return $this->getResponse(new AccountIdEndpoint());
         }
 
     public function getBattleTag()
         {
-        return $this->getResponse(new BattleTagRequest());
+        return $this->getResponse(new BattleTagEndpoint());
         }
 
     public function getDiablo3Career(BattleTag $battleTag)
         {
-        return $this->getResponse(new CareerRequest($battleTag));
+        return $this->getResponse(new CareerEndpoint($battleTag));
         }
 
     public function getDiablo3Hero(BattleTag $battleTag, $heroId)
         {
-        return $this->getResponse(new HeroRequest($battleTag, $heroId));
+        return $this->getResponse(new HeroEndpoint($battleTag, $heroId));
         }
 
     public function getDiablo3Item($itemId)
         {
-        return $this->getResponse(new ItemRequest($itemId));
+        return $this->getResponse(new ItemEndpoint($itemId));
         }
 
     public function getDiablo3Follower($follower)
         {
-        return $this->getResponse(new FollowerRequest($follower));
+        return $this->getResponse(new FollowerEndpoint($follower));
         }
 
     public function getDiablo3Artisan($artisan)
         {
-        return $this->getResponse(new ArtisanRequest($artisan));
+        return $this->getResponse(new ArtisanEndpoint($artisan));
         }
     }

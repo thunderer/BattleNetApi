@@ -11,9 +11,11 @@ interface RequestInterface
     public function getPath();
 
     /**
-     * Returns parser object capable of transforming raw response into entities
+     * Parse raw JSON string response into desired value
      *
-     * @return ParserInterface
+     * @param $response
+     *
+     * @return mixed
      */
-    public function getParser();
+    public function getResponse($response);
     }

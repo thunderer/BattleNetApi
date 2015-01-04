@@ -1,15 +1,26 @@
 <?php
-namespace Thunder\BlizzardApi\Parser\Diablo3;
+namespace Thunder\BlizzardApi\Endpoint\Diablo3;
 
 use Thunder\BlizzardApi\Entity\Diablo3\Attribute;
 use Thunder\BlizzardApi\Entity\Diablo3\AttributeRaw;
 use Thunder\BlizzardApi\Entity\Diablo3\Attributes;
 use Thunder\BlizzardApi\Entity\Diablo3\Item;
-use Thunder\BlizzardApi\ParserInterface;
-use Thunder\BlizzardApi\Response\Diablo3\ItemResponse;
+use Thunder\BlizzardApi\RequestInterface;
 
-class ItemParser implements ParserInterface
+class ItemEndpoint implements RequestInterface
     {
+    private $data;
+
+    public function __construct($data)
+        {
+        $this->data = $data;
+        }
+
+    public function getPath()
+        {
+        return '/d3/data/item/'.$this->data;
+        }
+
     public function getResponse($response)
         {
         $json = json_decode($response, true);
@@ -38,6 +49,6 @@ class ItemParser implements ParserInterface
             $attributesRaw,
             array()); // FIXME: Item gems are not parsed yet!
 
-        return new ItemResponse($item);
+        return $item;
         }
     }

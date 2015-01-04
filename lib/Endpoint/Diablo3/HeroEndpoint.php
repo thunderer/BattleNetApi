@@ -1,6 +1,7 @@
 <?php
-namespace Thunder\BlizzardApi\Parser\Diablo3;
+namespace Thunder\BlizzardApi\Endpoint\Diablo3;
 
+use Thunder\BlizzardApi\Entity\Account\BattleTag;
 use Thunder\BlizzardApi\Entity\Diablo3\Follower;
 use Thunder\BlizzardApi\Entity\Diablo3\Followers;
 use Thunder\BlizzardApi\Entity\Diablo3\Hero;
@@ -9,11 +10,24 @@ use Thunder\BlizzardApi\Entity\Diablo3\HeroStats;
 use Thunder\BlizzardApi\Entity\Diablo3\Item;
 use Thunder\BlizzardApi\Entity\Diablo3\Skill;
 use Thunder\BlizzardApi\Entity\Diablo3\Skills;
-use Thunder\BlizzardApi\ParserInterface;
-use Thunder\BlizzardApi\Response\Diablo3\HeroResponse;
+use Thunder\BlizzardApi\RequestInterface;
 
-class HeroParser implements ParserInterface
+class HeroEndpoint implements RequestInterface
     {
+    private $battleTag;
+    private $heroId;
+
+    public function __construct(BattleTag $battleTag, $heroId)
+        {
+        $this->battleTag = $battleTag;
+        $this->heroId = $heroId;
+        }
+
+    public function getPath()
+        {
+        return '/d3/profile/'.$this->battleTag->getBattleTag().'/hero/'.$this->heroId;
+        }
+
     public function getResponse($response)
         {
         $json = json_decode($response, true);
@@ -77,7 +91,7 @@ class HeroParser implements ParserInterface
             $equipment, $followers, $stats, $json['dead'], $json['hardcore'],
             $json['seasonal'], $json['last-updated']);
 
-        return new HeroResponse($hero);
+        return $hero;
         }
 
     private function getItem(array $data, $index)

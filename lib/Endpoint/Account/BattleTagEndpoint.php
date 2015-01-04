@@ -1,12 +1,16 @@
 <?php
-namespace Thunder\BlizzardApi\Parser\Account;
+namespace Thunder\BlizzardApi\Endpoint\Account;
 
 use Thunder\BlizzardApi\Entity\Account\BattleTag;
-use Thunder\BlizzardApi\Response\Account\BattleTagResponse;
-use Thunder\BlizzardApi\ParserInterface;
+use Thunder\BlizzardApi\RequestInterface;
 
-class BattleTagParser implements ParserInterface
+class BattleTagEndpoint implements RequestInterface
     {
+    public function getPath()
+        {
+        return '/account/user/battletag';
+        }
+
     public function getResponse($response)
         {
         $json = json_decode($response, true);
@@ -16,6 +20,6 @@ class BattleTagParser implements ParserInterface
             throw new \RuntimeException('Invalid BattleTag response, no BattleTag found!');
             }
 
-        return new BattleTagResponse(new BattleTag($json['battletag']));
+        return new BattleTag($json['battletag']);
         }
     }
