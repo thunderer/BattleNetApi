@@ -1,0 +1,117 @@
+{
+    "id": 777777,
+    "realm": 1,
+    "displayName": "XXXXXXXXX",
+    "clanName": "",
+    "clanTag": "",
+    "profilePath": "/profile/777777/1/XXXXXXXXX/",
+    "portrait": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 90,
+        "offset": 0,
+        "url": "http://media.blizzard.com/sc2/portraits/0-90.jpg"
+    },
+    "career": {
+        "primaryRace": "TERRAN",
+        "terranWins": 0,
+        "protossWins": 0,
+        "zergWins": 0,
+        "highest1v1Rank": "BRONZE",
+        "highestTeamRank": "BRONZE",
+        "seasonTotalGames": 0,
+        "careerTotalGames": 12
+    },
+    "swarmLevels": {
+        "level": 0,
+        "terran": {
+            "level": 0,
+            "totalLevelXP": 5000,
+            "currentLevelXP": 0
+        },
+        "zerg": {
+            "level": 0,
+            "totalLevelXP": 5000,
+            "currentLevelXP": 0
+        },
+        "protoss": {
+            "level": 0,
+            "totalLevelXP": 5000,
+            "currentLevelXP": 0
+        }
+    },
+    "campaign": {},
+    "season": {
+        "seasonId": 20,
+        "seasonNumber": 4,
+        "seasonYear": 2014,
+        "totalGamesThisSeason": 0
+    },
+    "rewards": {
+        "selected": [18730036, 2009110693, 2359737029, 2951153716],
+        "earned": []
+    },
+    "achievements": {
+        "points": {
+            "totalPoints": 155,
+            "categoryPoints": {
+                "4325382": 0,
+                "4325380": 20,
+                "4325408": 0,
+                "4325379": 115,
+                "4325410": 0,
+                "4325377": 20
+            }
+        },
+        "achievements": [{
+            "achievementId": 91475035553886,
+            "completionDate": 1345034758
+        }, {
+            "achievementId": 91475035553983,
+            "completionDate": 1345031730
+        }, {
+            "achievementId": 91475035553973,
+            "completionDate": 1344969034
+        }, {
+            "achievementId": 91475035553885,
+            "completionDate": 1344969034
+        }, {
+            "achievementId": 91475320767565,
+            "completionDate": 1344818707
+        }, {
+            "achievementId": 91475320767211,
+            "completionDate": 1344818707
+        }, {
+            "achievementId": 91475035553798,
+            "completionDate": 1281792408
+        }, {
+            "achievementId": 91475320766707,
+            "completionDate": 1280875805
+        }, {
+            "achievementId": 91475035553830,
+            "completionDate": 1280874153
+        }, {
+            "achievementId": 91475035553828,
+            "completionDate": 1280874075
+        }, {
+            "achievementId": 91475035553884,
+            "completionDate": 1280799303
+        }, {
+            "achievementId": 91475035553883,
+            "completionDate": 1280797900
+        }, {
+            "achievementId": 91475035553882,
+            "completionDate": 1280797572
+        }, {
+            "achievementId": 91475035553881,
+            "completionDate": 1280795815
+        }, {
+            "achievementId": 91475035553880,
+            "completionDate": 1280795405
+        }, {
+            "achievementId": 91475035553879,
+            "completionDate": 1280795224
+        }]
+    }
+}

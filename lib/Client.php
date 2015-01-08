@@ -78,7 +78,7 @@ final class Client
         {
         return 'https://'.$this->host.'/'.$path.http_build_query(array(
             'locale' => $this->locale,
-            'access_token' => $this->application->getKey(),
+            'apikey' => $this->application->getKey(),
             ));
         }
     }

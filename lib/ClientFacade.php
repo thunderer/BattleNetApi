@@ -1,6 +1,12 @@
 <?php
 namespace Thunder\BlizzardApi;
 
+use Thunder\BlizzardApi\Endpoint\Starcraft2\AchievementsEndpoint;
+use Thunder\BlizzardApi\Endpoint\Starcraft2\LadderEndpoint;
+use Thunder\BlizzardApi\Endpoint\Starcraft2\LaddersEndpoint;
+use Thunder\BlizzardApi\Endpoint\Starcraft2\MatchHistoryEndpoint;
+use Thunder\BlizzardApi\Endpoint\Starcraft2\ProfileEndpoint;
+use Thunder\BlizzardApi\Endpoint\Starcraft2\RewardsEndpoint;
 use Thunder\BlizzardApi\Entity\Account\BattleTag;
 use Thunder\BlizzardApi\Endpoint\Account\AccountIdEndpoint;
 use Thunder\BlizzardApi\Endpoint\Account\BattleTagEndpoint;
@@ -25,6 +31,8 @@ class ClientFacade
         return $this->client->getResponse($request);
         }
 
+    /* --- ACCOUNT API --- */
+
     public function getAccountId()
         {
         return $this->getResponse(new AccountIdEndpoint());
@@ -34,6 +42,8 @@ class ClientFacade
         {
         return $this->getResponse(new BattleTagEndpoint());
         }
+
+    /* --- DIABLO 3 API --- */
 
     public function getDiablo3Career(BattleTag $battleTag)
         {
@@ -59,4 +69,38 @@ class ClientFacade
         {
         return $this->getResponse(new ArtisanEndpoint($artisan));
         }
+
+    /* --- STARCRAFT 2 API --- */
+
+    public function getStarcraft2Profile($id, $region, $name)
+        {
+        return $this->getResponse(new ProfileEndpoint($id, $region, $name));
+        }
+
+    public function getStarcraft2Ladders($id, $region, $name)
+        {
+        return $this->getResponse(new LaddersEndpoint($id, $region, $name));
+        }
+
+    public function getStarcraft2MatchHistory($id, $region, $name)
+        {
+        return $this->getResponse(new MatchHistoryEndpoint($id, $region, $name));
+        }
+
+    public function getStarcraft2Ladder($id)
+        {
+        return $this->getResponse(new LadderEndpoint($id));
+        }
+
+    public function getStarcraft2Achievements()
+        {
+        return $this->getResponse(new AchievementsEndpoint());
+        }
+
+    public function getStarcraft2Rewards()
+        {
+        return $this->getResponse(new RewardsEndpoint());
+        }
+
+    /* --- WORLD OF WARCRAFT API --- */
     }

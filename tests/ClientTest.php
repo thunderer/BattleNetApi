@@ -12,6 +12,11 @@ use Thunder\BlizzardApi\Entity\Diablo3\Item;
 use Thunder\BlizzardApi\Application;
 use Thunder\BlizzardApi\Client;
 use Thunder\BlizzardApi\Connector\MockConnector;
+use Thunder\BlizzardApi\Entity\Starcraft2\Achievements;
+use Thunder\BlizzardApi\Entity\Starcraft2\LadderEntries;
+use Thunder\BlizzardApi\Entity\Starcraft2\Ladders;
+use Thunder\BlizzardApi\Entity\Starcraft2\Profile;
+use Thunder\BlizzardApi\Entity\Starcraft2\Rewards;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
     {
@@ -91,12 +96,63 @@ class ClientTest extends \PHPUnit_Framework_TestCase
                 }, 'diablo3/artisan-mystic.json'),
 
             // StarCraft2 API
-            // profile
-            // ladders
-            // match history
-            // ladder
-            // achievements
-            // rewards
+            array('getStarcraft2Profile', array('id', 'region', 'name'), function(Profile $response) {
+                $this->assertEquals(777777, $response->getId());
+                $this->assertEquals('XXXXXXXXX', $response->getDisplayName());
+                $this->assertCount(16, $response->getAchievements());
+                $this->assertCount(6, $response->getAchievementsPointsByCategory());
+                $this->assertCount(0, $response->getEarnedRewards());
+                $this->assertCount(4, $response->getSelectedRewards());
+                $this->assertEquals(155, $response->getTotalAchievementsPoints());
+                }, 'starcraft2/profile-1.json'),
+            array('getStarcraft2Profile', array('id', 'region', 'name'), function(Profile $response) {
+                $this->assertEquals(888888, $response->getId());
+                $this->assertEquals('PPPPPPP', $response->getDisplayName());
+                $this->assertCount(31, $response->getAchievements());
+                $this->assertCount(6, $response->getAchievementsPointsByCategory());
+                $this->assertCount(19, $response->getEarnedRewards());
+                $this->assertCount(4, $response->getSelectedRewards());
+                $this->assertEquals(355, $response->getTotalAchievementsPoints());
+                }, 'starcraft2/profile-2.json'),
+            array('getStarcraft2Profile', array('id', 'region', 'name'), function(Profile $response) {
+                $this->assertEquals(1111111, $response->getId());
+                $this->assertEquals('YYYYYYY', $response->getDisplayName());
+                $this->assertCount(184, $response->getAchievements());
+                $this->assertCount(6, $response->getAchievementsPointsByCategory());
+                $this->assertCount(121, $response->getEarnedRewards());
+                $this->assertCount(8, $response->getSelectedRewards());
+                $this->assertEquals(2175, $response->getTotalAchievementsPoints());
+                }, 'starcraft2/profile-3.json'),
+
+            array('getStarcraft2Ladders', array('id', 'region', 'name'), function(Ladders $response) {
+                $this->assertCount(5, $response->getCurrentSeason());
+                $this->assertCount(8, $response->getPreviousSeason());
+                $this->assertCount(1, $response->getShowcasePlacement());
+                }, 'starcraft2/ladders.json'),
+
+            array('getStarcraft2MatchHistory', array('id', 'region', 'name'), function(array $response) {
+                $this->assertCount(20, $response);
+                }, 'starcraft2/matches-1.json'),
+            array('getStarcraft2MatchHistory', array('id', 'region', 'name'), function(array $response) {
+                $this->assertCount(25, $response);
+                }, 'starcraft2/matches-2.json'),
+
+            array('getStarcraft2Ladder', array('id'), function(LadderEntries $response) {
+                $this->assertCount(100, $response->getEntries());
+                }, 'starcraft2/ladder.json'),
+
+            array('getStarcraft2Achievements', array(), function(Achievements $response) {
+                $this->assertCount(735, $response->getAchievements());
+                $this->assertCount(7, $response->getCategories());
+                }, 'starcraft2/achievements.json'),
+            array('getStarcraft2Rewards', array(), function(Rewards $response) {
+                $this->assertCount(194, $response->getPortraits());
+                $this->assertCount(66, $response->getTerranDecals());
+                $this->assertCount(66, $response->getZergDecals());
+                $this->assertCount(66, $response->getProtossDecals());
+                $this->assertCount(16, $response->getSkins());
+                $this->assertCount(12, $response->getAnimations());
+                }, 'starcraft2/rewards.json'),
 
             // World Of Warcraft API
             // achievement
