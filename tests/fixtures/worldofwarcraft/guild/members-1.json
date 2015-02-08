@@ -1,0 +1,3457 @@
+{
+    "lastModified": 1420794129000,
+    "name": "Forgotten Legacy",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "level": 25,
+    "side": 0,
+    "achievementPoints": 2105,
+    "members": [{
+        "character": {
+            "name": "Corlan",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 1,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/68/75231044-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Béldir",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 3,
+            "gender": 0,
+            "level": 96,
+            "achievementPoints": 18910,
+            "thumbnail": "scarshield-legion/126/75267710-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-warrior-protection",
+                "icon": "ability_warrior_defensivestance",
+                "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Shadowsmight",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 4,
+            "gender": 0,
+            "level": 93,
+            "achievementPoints": 13570,
+            "thumbnail": "scarshield-legion/98/75307362-avatar.jpg",
+            "spec": {
+                "name": "Assassination",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-assassination",
+                "icon": "ability_rogue_eviscerate",
+                "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Adereiel",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 4,
+            "gender": 1,
+            "level": 73,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/196/100157124-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Cuji",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/149/100425877-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Solroja",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 22,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 8180,
+            "thumbnail": "scarshield-legion/12/100455180-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Soloscuro",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 4,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 8180,
+            "thumbnail": "scarshield-legion/138/100456586-avatar.jpg",
+            "spec": {
+                "name": "Blood",
+                "role": "TANK",
+                "backgroundImage": "bg-deathknight-blood",
+                "icon": "spell_deathknight_bloodpresence",
+                "description": "A dark guardian who manipulates and corrupts life energy to sustain himself in the face of an enemy onslaught.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Penn",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 7,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/139/100608907-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Ellywíck",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 7,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/238/100628974-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Arech",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 14185,
+            "thumbnail": "scarshield-legion/191/100629183-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Prophecie",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 7,
+            "gender": 1,
+            "level": 82,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/4/100629508-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Tenebria",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 22,
+            "gender": 1,
+            "level": 87,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/137/100629641-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Aingelsharc",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/116/100629876-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Inessa",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/232/100629992-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Shaitaan",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 11,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 14215,
+            "thumbnail": "scarshield-legion/94/100630110-avatar.jpg",
+            "spec": {
+                "name": "Arms",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-arms",
+                "icon": "ability_warrior_savageblow",
+                "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Dags",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 7,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/218/100630234-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Serrabella",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/81/100630353-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Fanatica",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/26/100630554-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Aingel",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 1,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/224/100630752-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Mowbry",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 0,
+            "level": 52,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/13/100631565-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Mudon",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 33,
+            "achievementPoints": 14515,
+            "thumbnail": "scarshield-legion/111/100631663-avatar.jpg",
+            "spec": {
+                "name": "Enhancement",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-enhancement",
+                "icon": "spell_shaman_improvedstormstrike",
+                "description": "A totemic warrior who strikes foes with weapons imbued with elemental power.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Vaenra",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 4,
+            "gender": 1,
+            "level": 25,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/153/100632217-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Jabs",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 7,
+            "gender": 0,
+            "level": 70,
+            "achievementPoints": 12575,
+            "thumbnail": "scarshield-legion/187/100632251-avatar.jpg",
+            "spec": {
+                "name": "Subtlety",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-subtlety",
+                "icon": "ability_stealth",
+                "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Dhindor",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 4,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/38/100632358-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Nent",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/143/100632463-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Daemus",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 22,
+            "gender": 0,
+            "level": 31,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/177/100633265-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Evelýnne",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 1,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/25/100633369-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Nëa",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/151/100633495-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Maiea",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/4/100633604-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Tylena",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/79/100634191-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Guendoloena",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 1,
+            "level": 81,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/171/100635051-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Jigsi",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/79/100635215-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Tumakia",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 11,
+            "gender": 1,
+            "level": 54,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/101/100638565-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kiyona",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 7,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 9925,
+            "thumbnail": "scarshield-legion/225/100647137-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Alibrylla",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 7,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/236/100647404-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gearsworth",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 7,
+            "gender": 0,
+            "level": 66,
+            "achievementPoints": 14215,
+            "thumbnail": "scarshield-legion/250/100647674-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Cherubina",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 7,
+            "gender": 1,
+            "level": 19,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/48/100647984-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Avei",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 1,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 9925,
+            "thumbnail": "scarshield-legion/211/100648915-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Yleina",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 4,
+            "gender": 1,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/59/100649019-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Chime",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 3,
+            "gender": 1,
+            "level": 89,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/87/100651351-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Sasorí",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 3,
+            "gender": 0,
+            "level": 51,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/168/100652200-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Harldin",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 51,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/9/100652297-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Lotraine",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 1,
+            "gender": 1,
+            "level": 68,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/14/100652558-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Averil",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 50,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/61/100655421-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Dessio",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 1,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/175/100657583-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Urn",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 7,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/136/100657800-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Sharqs",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 22,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 9275,
+            "thumbnail": "scarshield-legion/128/100658816-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Shadowvortex",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 1,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13570,
+            "thumbnail": "scarshield-legion/163/100658851-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Córlan",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 22,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 5420,
+            "thumbnail": "scarshield-legion/111/100662639-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Lilacor",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 11,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/46/100663854-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Danamir",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 1,
+            "gender": 0,
+            "level": 60,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/128/100666752-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gwenhwyvach",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 1,
+            "level": 37,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/100/100666980-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Abràxus",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 7,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/8/100668168-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Yleyna",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 94,
+            "achievementPoints": 11905,
+            "thumbnail": "scarshield-legion/15/100668431-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gwenever",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 45,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/54/100674102-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gavain",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 22,
+            "gender": 0,
+            "level": 81,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/159/100674207-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Therril",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 22,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/75/100675659-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Evelynna",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 1,
+            "gender": 1,
+            "level": 53,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/169/100676265-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Triyn",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 7,
+            "gender": 1,
+            "level": 86,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/166/100677286-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Ólwyn",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 7,
+            "gender": 1,
+            "level": 27,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/25/100677401-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Topps",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/248/100678136-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Ahmara",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/132/100678532-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Adryane",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 1,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 8235,
+            "thumbnail": "scarshield-legion/114/100681330-avatar.jpg",
+            "spec": {
+                "name": "Destruction",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-destruction",
+                "icon": "spell_shadow_rainoffire",
+                "description": "A master of chaos who calls down fire to burn and demolish enemies.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Leithara",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 56,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/200/100682440-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Selafyn",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 0,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/47/100687151-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Xanathea",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 7,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/254/100688638-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Guggenheim",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 3,
+            "gender": 0,
+            "level": 38,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/66/100699458-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Twilena",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 6215,
+            "thumbnail": "scarshield-legion/31/100704543-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Lithelion",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 4,
+            "gender": 0,
+            "level": 11,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/201/100707017-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Lotie",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/192/100707264-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Shadowpaw",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13570,
+            "thumbnail": "scarshield-legion/233/100707561-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Brianag",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 1,
+            "level": 63,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/96/100710496-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Seizaar",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 11,
+            "gender": 0,
+            "level": 92,
+            "achievementPoints": 13765,
+            "thumbnail": "scarshield-legion/0/100716032-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gorech",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/81/100716625-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Elilla",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 7,
+            "gender": 1,
+            "level": 86,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/211/100717011-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Mglisty",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/161/100718497-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Algarin",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 0,
+            "level": 62,
+            "achievementPoints": 4590,
+            "thumbnail": "scarshield-legion/30/100720926-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-paladin-protection",
+                "icon": "ability_paladin_shieldofthetemplar",
+                "description": "Uses Holy magic to shield himself and defend allies from attackers.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Arakal",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 0,
+            "level": 61,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/231/100721127-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Forrést",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 25,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 11050,
+            "thumbnail": "scarshield-legion/137/100723337-avatar.jpg",
+            "spec": {
+                "name": "Arms",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-arms",
+                "icon": "ability_warrior_savageblow",
+                "description": "A battle-hardened master of two-handed weapons, using mobility and overpowering attacks to strike her opponents down.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Blanchefleur",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 1,
+            "gender": 1,
+            "level": 27,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/139/100728459-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Eskarìna",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 7,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/210/100731090-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Caulder",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 22,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 14215,
+            "thumbnail": "scarshield-legion/168/100733864-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Armíjka",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 4,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/1/100738305-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kryon",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 3,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/212/100738772-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Ganieda",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 3,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/230/100741094-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Rayren",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 7,
+            "gender": 0,
+            "level": 86,
+            "achievementPoints": 13380,
+            "thumbnail": "scarshield-legion/46/100741678-avatar.jpg",
+            "spec": {
+                "name": "Fury",
+                "role": "DPS",
+                "backgroundImage": "bg-warrior-fury",
+                "icon": "ability_warrior_innerrage",
+                "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Darist",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 7,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 5190,
+            "thumbnail": "scarshield-legion/11/100741899-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Cadandra",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/103/100752231-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Phlyx",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 56,
+            "achievementPoints": 9825,
+            "thumbnail": "scarshield-legion/174/100756910-avatar.jpg",
+            "spec": {
+                "name": "Feral",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-cat",
+                "icon": "ability_druid_catform",
+                "description": "Takes on the form of a great cat to deal damage with bleeds and bites.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Oryana",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 46,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/71/100760391-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Browning",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 22,
+            "gender": 0,
+            "level": 18,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/65/100765761-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Fionnan",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 3,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/54/100770102-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kellani",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 11,
+            "gender": 1,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/141/100777101-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Mkvénner",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 6750,
+            "thumbnail": "scarshield-legion/61/100784189-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Zepheldir",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 4,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/130/100786306-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Meirana",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 3,
+            "gender": 1,
+            "level": 87,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/232/100790760-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Ellanór",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 4,
+            "gender": 1,
+            "level": 81,
+            "achievementPoints": 12550,
+            "thumbnail": "scarshield-legion/32/100793632-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kayrael",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 22,
+            "gender": 0,
+            "level": 58,
+            "achievementPoints": 13570,
+            "thumbnail": "scarshield-legion/84/100794964-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-deathknight-frost",
+                "icon": "spell_deathknight_frostpresence",
+                "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Ellura",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 65,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/204/100802508-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Blaiire",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 1,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 6240,
+            "thumbnail": "scarshield-legion/238/100804334-avatar.jpg",
+            "spec": {
+                "name": "Arcane",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-arcane",
+                "icon": "spell_holy_magicalsentry",
+                "description": "Manipulate the arcane, destroying enemies with overwhelming power.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Vardeck",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 1,
+            "gender": 0,
+            "level": 61,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/3/100805635-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gemmini",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 7,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/208/100806864-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kranoj",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/175/100808367-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Splotch",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 22,
+            "gender": 0,
+            "level": 38,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/48/100809008-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Ramarra",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 1,
+            "gender": 1,
+            "level": 78,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/69/100809797-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Alcionne",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 10265,
+            "thumbnail": "scarshield-legion/139/100809867-avatar.jpg",
+            "spec": {
+                "name": "Elemental",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-elemental",
+                "icon": "spell_nature_lightning",
+                "description": "A spellcaster who harnesses the destructive forces of nature and the elements.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Yleinos",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 4,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/206/100814542-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kaylinne",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 4,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/226/100816610-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Savl",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 1,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/125/100824445-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Terrak",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 3,
+            "gender": 0,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/12/100827404-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Apolloniia",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 86,
+            "achievementPoints": 16740,
+            "thumbnail": "scarshield-legion/38/100832806-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Khazandr",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 3,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 18910,
+            "thumbnail": "scarshield-legion/111/100833647-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Vrane",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 1,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/110/100837998-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Awbi",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/133/100854917-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Shayde",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 7,
+            "gender": 0,
+            "level": 55,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/45/100858157-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Nialu",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 4,
+            "gender": 0,
+            "level": 37,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/229/100859365-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Maledia",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 7,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/119/100869751-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Branoc",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 3,
+            "gender": 1,
+            "level": 49,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/53/100871989-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Armijka",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 10980,
+            "thumbnail": "scarshield-legion/110/100872558-avatar.jpg",
+            "spec": {
+                "name": "Balance",
+                "role": "DPS",
+                "backgroundImage": "bg-druid-balance",
+                "icon": "spell_nature_starfall",
+                "description": "Can take on the form of a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies at a distance.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Vellek",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 22,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/222/100878814-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Esmérelda",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 11,
+            "gender": 1,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/111/100890735-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Rhaeven",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 1,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6345,
+            "thumbnail": "scarshield-legion/17/100892433-avatar.jpg",
+            "spec": {
+                "name": "Shadow",
+                "role": "DPS",
+                "backgroundImage": "bg-priest-shadow",
+                "icon": "spell_shadow_shadowwordpain",
+                "description": "Uses sinister Shadow magic, especially damage-over-time spells, to eradicate enemies.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Erayon",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 32,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/178/100900274-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Amenel",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 4,
+            "gender": 1,
+            "level": 60,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/46/100902190-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Yellowheart",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 3,
+            "gender": 0,
+            "level": 49,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/139/100913291-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Danjo",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 12,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/6/100933638-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Batuo",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 73,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/47/100934703-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Chenshao",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 25,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 5420,
+            "thumbnail": "scarshield-legion/125/100936829-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Feorul",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 22,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/97/100949345-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Folie",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 22,
+            "gender": 1,
+            "level": 38,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/218/100952794-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Majín",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 4,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 6630,
+            "thumbnail": "scarshield-legion/114/100959858-avatar.jpg",
+            "spec": {
+                "name": "Combat",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-combat",
+                "icon": "ability_backstab",
+                "description": "A swashbuckler who uses agility and guile to stand toe-to-toe with enemies.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Kehmiir",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 11,
+            "gender": 0,
+            "level": 91,
+            "achievementPoints": 7815,
+            "thumbnail": "scarshield-legion/102/100960102-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Junei",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 87,
+            "achievementPoints": 11050,
+            "thumbnail": "scarshield-legion/71/100961607-avatar.jpg",
+            "spec": {
+                "name": "Protection",
+                "role": "TANK",
+                "backgroundImage": "bg-paladin-protection",
+                "icon": "ability_paladin_shieldofthetemplar",
+                "description": "Uses Holy magic to shield himself and defend allies from attackers.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Shaochen",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 60,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/219/100964827-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Zhenral",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13570,
+            "thumbnail": "scarshield-legion/227/100968163-avatar.jpg",
+            "spec": {
+                "name": "Brewmaster",
+                "role": "TANK",
+                "backgroundImage": "bg-monk-brewmaster",
+                "icon": "spell_monk_brewmaster_spec",
+                "description": "A sturdy brawler who uses liquid fortification and unpredictable movement to avoid damage and protect allies.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Tayren",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 25,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 13570,
+            "thumbnail": "scarshield-legion/202/100985034-avatar.jpg",
+            "spec": {
+                "name": "Beast Mastery",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-beastmaster",
+                "icon": "ability_hunter_bestialdiscipline",
+                "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Shailin",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 11,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/73/100985417-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Shaktani",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 1,
+            "level": 44,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/173/100987565-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kiån",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 87,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/85/100988757-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Taishaan",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 44,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/78/100993102-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Tianshaa",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 25,
+            "gender": 1,
+            "level": 27,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/213/100994773-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Keres",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/21/100998677-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Nirwen",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 1,
+            "level": 80,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/226/101009890-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Karmasuture",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 1,
+            "level": 83,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/154/101011610-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Gresley",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 70,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/138/101024138-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Pétey",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 25,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/163/101030307-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Aeres",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 4,
+            "gender": 0,
+            "level": 87,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/146/101031314-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Aloine",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 1,
+            "level": 82,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/122/101034106-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Rikov",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 22,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/32/101038368-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Weírdo",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 3,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/37/101047589-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Plazyer",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/93/101047901-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Stanier",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 3,
+            "gender": 0,
+            "level": 15,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/158/101051294-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Armiya",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 4,
+            "gender": 1,
+            "level": 31,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/13/101051405-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Rionyn",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 1,
+            "gender": 1,
+            "level": 28,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/98/101057634-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Kythius",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 1,
+            "gender": 0,
+            "level": 15,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/159/101058719-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Drekk",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 1,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/253/101060349-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Bink",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 7,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 12580,
+            "thumbnail": "scarshield-legion/75/101067851-avatar.jpg",
+            "spec": {
+                "name": "Subtlety",
+                "role": "DPS",
+                "backgroundImage": "bg-rogue-subtlety",
+                "icon": "ability_stealth",
+                "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Arkyx",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 1,
+            "gender": 0,
+            "level": 58,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/237/101068013-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Elridil",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 4,
+            "gender": 1,
+            "level": 22,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/62/101069630-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Merkave",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 23,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/63/101071679-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Yvos",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 1,
+            "gender": 0,
+            "level": 57,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/203/101071819-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Tailwagga",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/98/101089890-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 0
+    }, {
+        "character": {
+            "name": "Sabba",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 0,
+            "level": 31,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/173/101195693-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Jïnx",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 7,
+            "gender": 1,
+            "level": 24,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/93/101195869-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Inglouriousb",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 3,
+            "gender": 0,
+            "level": 20,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/250/101196026-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Leonty",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 11,
+            "gender": 0,
+            "level": 66,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/72/101209160-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Lucette",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 9,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/61/101209661-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Ygrïtte",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 1,
+            "gender": 1,
+            "level": 60,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/244/101210356-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Kalanit",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/101/101217637-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Billgoldberg",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 25,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/149/101217941-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Doubi",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/91/101220955-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Sheilâ",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 4,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/57/101222713-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Barrefaeli",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 6,
+            "race": 11,
+            "gender": 1,
+            "level": 62,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/206/101223886-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Maccabitlv",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 4,
+            "race": 1,
+            "gender": 1,
+            "level": 16,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/38/101223974-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Zeev",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 69,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/96/101225568-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Shunra",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/151/101226135-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Mami",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 7,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/248/101231096-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Novathron",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 0,
+            "level": 42,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/172/101231532-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Lutza",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 11,
+            "gender": 1,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/237/101232109-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Pandonit",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 1,
+            "level": 32,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/93/101232221-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Egozi",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 25,
+            "gender": 1,
+            "level": 30,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/63/101232447-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Tien",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 1,
+            "level": 28,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/118/101235318-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Zaémon",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 1,
+            "race": 22,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/36/101411364-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Sekhmett",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 25,
+            "gender": 1,
+            "level": 40,
+            "achievementPoints": 16740,
+            "thumbnail": "scarshield-legion/52/101602356-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Shadoun",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 9,
+            "race": 3,
+            "gender": 1,
+            "level": 52,
+            "achievementPoints": 17540,
+            "thumbnail": "scarshield-legion/247/101732599-avatar.jpg",
+            "spec": {
+                "name": "Demonology",
+                "role": "DPS",
+                "backgroundImage": "bg-warlock-demonology",
+                "icon": "spell_shadow_metamorphosis",
+                "description": "A master of demonic magic who transforms into a demon and compels demonic powers to aid him.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Yipchi",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 7,
+            "gender": 0,
+            "level": 90,
+            "achievementPoints": 2275,
+            "thumbnail": "scarshield-legion/52/101789492-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Cogz",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 10,
+            "race": 7,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 12935,
+            "thumbnail": "scarshield-legion/160/101790368-avatar.jpg",
+            "spec": {
+                "name": "Windwalker",
+                "role": "DPS",
+                "backgroundImage": "bg-monk-battledancer",
+                "icon": "spell_monk_windwalker_spec",
+                "description": "A martial artist without peer who pummels foes with hands and fists.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Granita",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 11,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/79/102012751-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Dratan",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/114/102012786-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Zuttalo",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 7,
+            "gender": 0,
+            "level": 84,
+            "achievementPoints": 8315,
+            "thumbnail": "scarshield-legion/121/102012793-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Panaceia",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 1,
+            "gender": 1,
+            "level": 85,
+            "achievementPoints": 0,
+            "thumbnail": "scarshield-legion/202/102013130-avatar.jpg",
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 5
+    }, {
+        "character": {
+            "name": "Blaiíre",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 5,
+            "race": 1,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 6810,
+            "thumbnail": "scarshield-legion/12/110054412-avatar.jpg",
+            "spec": {
+                "name": "Discipline",
+                "role": "HEALING",
+                "backgroundImage": "bg-priest-discipline",
+                "icon": "spell_holy_powerwordshield",
+                "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Gaamen",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 4,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 6690,
+            "thumbnail": "scarshield-legion/58/110348858-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Detoran",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 5420,
+            "thumbnail": "scarshield-legion/52/111167284-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Arkyx",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 1,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10330,
+            "thumbnail": "scarshield-legion/117/111168373-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Ørion",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 3,
+            "race": 3,
+            "gender": 1,
+            "level": 96,
+            "achievementPoints": 315,
+            "thumbnail": "scarshield-legion/101/111170149-avatar.jpg",
+            "spec": {
+                "name": "Marksmanship",
+                "role": "DPS",
+                "backgroundImage": "bg-hunter-marksman",
+                "icon": "ability_hunter_focusedaim",
+                "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                "order": 1
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Mathilda",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 2,
+            "race": 3,
+            "gender": 1,
+            "level": 95,
+            "achievementPoints": 595,
+            "thumbnail": "scarshield-legion/112/111174768-avatar.jpg",
+            "spec": {
+                "name": "Retribution",
+                "role": "DPS",
+                "backgroundImage": "bg-paladin-retribution",
+                "icon": "spell_holy_auraoflight",
+                "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Kiyora",
+            "realm": "Defias Brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 11,
+            "race": 22,
+            "gender": 1,
+            "level": 100,
+            "achievementPoints": 9925,
+            "thumbnail": "scarshield-legion/234/111403242-avatar.jpg",
+            "spec": {
+                "name": "Restoration",
+                "role": "HEALING",
+                "backgroundImage": "bg-druid-restoration",
+                "icon": "spell_nature_healingtouch",
+                "description": "Uses heal-over-time Nature spells to keep allies alive.",
+                "order": 3
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Elysiä",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 8,
+            "race": 1,
+            "gender": 1,
+            "level": 99,
+            "achievementPoints": 8165,
+            "thumbnail": "scarshield-legion/8/111595016-avatar.jpg",
+            "spec": {
+                "name": "Frost",
+                "role": "DPS",
+                "backgroundImage": "bg-mage-frost",
+                "icon": "spell_frost_frostbolt02",
+                "description": "Freezes enemies in their tracks and shatters them with Frost magic.",
+                "order": 2
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }, {
+        "character": {
+            "name": "Phlyx",
+            "realm": "Sporeggar",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "class": 7,
+            "race": 3,
+            "gender": 0,
+            "level": 100,
+            "achievementPoints": 10330,
+            "thumbnail": "scarshield-legion/36/111641124-avatar.jpg",
+            "spec": {
+                "name": "Elemental",
+                "role": "DPS",
+                "backgroundImage": "bg-shaman-elemental",
+                "icon": "spell_nature_lightning",
+                "description": "A spellcaster who harnesses the destructive forces of nature and the elements.",
+                "order": 0
+            },
+            "guild": "Forgotten Legacy",
+            "guildRealm": "Defias Brotherhood"
+        },
+        "rank": 4
+    }],
+    "emblem": {
+        "icon": 13,
+        "iconColor": "ffb1b8b1",
+        "border": 3,
+        "borderColor": "fff9cc30",
+        "backgroundColor": "ff003582"
+    }
+}

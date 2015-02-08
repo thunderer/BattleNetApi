@@ -1,0 +1,388 @@
+{
+    "lastModified": 1420730703000,
+    "name": "Gaamen",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "class": 3,
+    "race": 4,
+    "gender": 1,
+    "level": 100,
+    "achievementPoints": 6690,
+    "thumbnail": "scarshield-legion/58/110348858-avatar.jpg",
+    "calcClass": "Y",
+    "items": {
+        "averageItemLevel": 640,
+        "averageItemLevelEquipped": 640,
+        "head": {
+            "id": 118939,
+            "name": "Crown of Destruction",
+            "icon": "inv_crown_02",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 51,
+                "amount": 63
+            }, {
+                "stat": 32,
+                "amount": 139
+            }, {
+                "stat": 73,
+                "amount": 184
+            }, {
+                "stat": 36,
+                "amount": 93
+            }, {
+                "stat": 7,
+                "amount": 275
+            }],
+            "armor": 157,
+            "context": "",
+            "bonusLists": []
+        },
+        "neck": {
+            "id": 116284,
+            "name": "Necklace of Volatile Anomalies",
+            "icon": "inv_misc_necklace_6_0_026",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {
+                "enchant": 5285
+            },
+            "stats": [{
+                "stat": 59,
+                "amount": 69
+            }, {
+                "stat": 49,
+                "amount": 69
+            }, {
+                "stat": 3,
+                "amount": 103
+            }, {
+                "stat": 7,
+                "amount": 155
+            }],
+            "armor": 0,
+            "context": "raid-finder",
+            "bonusLists": [563]
+        },
+        "shoulder": {
+            "id": 109940,
+            "name": "Sharpeye Shoulderguards",
+            "icon": "inv_shoulder_mail_draenordungeon_c_01",
+            "quality": 3,
+            "itemLevel": 630,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 40,
+                "amount": 93
+            }, {
+                "stat": 49,
+                "amount": 68
+            }, {
+                "stat": 73,
+                "amount": 126
+            }, {
+                "stat": 7,
+                "amount": 189
+            }],
+            "armor": 139,
+            "context": "dungeon-heroic",
+            "bonusLists": [524]
+        },
+        "back": {
+            "id": 109905,
+            "name": "Deadshot Greatcloak",
+            "icon": "inv_cape_draenordungeon_c_04leather_base",
+            "quality": 3,
+            "itemLevel": 630,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 40,
+                "amount": 57
+            }, {
+                "stat": 3,
+                "amount": 94
+            }, {
+                "stat": 36,
+                "amount": 66
+            }, {
+                "stat": 7,
+                "amount": 141
+            }],
+            "armor": 44,
+            "context": "dungeon-heroic",
+            "bonusLists": [524]
+        },
+        "chest": {
+            "id": 120089,
+            "name": "Chestguard of Rejuvenation",
+            "icon": "inv_chest_mail_draenordungeon_c_01",
+            "quality": 4,
+            "itemLevel": 650,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 40,
+                "amount": 138
+            }, {
+                "stat": 49,
+                "amount": 128
+            }, {
+                "stat": 73,
+                "amount": 201
+            }, {
+                "stat": 7,
+                "amount": 302
+            }],
+            "armor": 201,
+            "context": "",
+            "bonusLists": []
+        },
+        "wrist": {
+            "id": 116030,
+            "name": "Bracer of Amputation",
+            "icon": "inv_bracer_leather_draenorlfr_c_01",
+            "quality": 4,
+            "itemLevel": 646,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 32,
+                "amount": 64
+            }, {
+                "stat": 40,
+                "amount": 78
+            }, {
+                "stat": 73,
+                "amount": 109
+            }, {
+                "stat": 7,
+                "amount": 164
+            }],
+            "armor": 87,
+            "context": "raid-finder",
+            "bonusLists": [560]
+        },
+        "hands": {
+            "id": 116025,
+            "name": "Pulverizing Grips",
+            "icon": "inv_glove_leather_draenorlfr_c_01",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 32,
+                "amount": 104
+            }, {
+                "stat": 73,
+                "amount": 138
+            }, {
+                "stat": 36,
+                "amount": 72
+            }, {
+                "stat": 7,
+                "amount": 207
+            }],
+            "armor": 121,
+            "context": "raid-finder",
+            "bonusLists": []
+        },
+        "waist": {
+            "id": 109843,
+            "name": "Morningscale Waistguard",
+            "icon": "inv_belt_mail_draenordungeon_c_01",
+            "quality": 3,
+            "itemLevel": 636,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 49,
+                "amount": 94
+            }, {
+                "stat": 73,
+                "amount": 133
+            }, {
+                "stat": 36,
+                "amount": 80
+            }, {
+                "stat": 7,
+                "amount": 199
+            }],
+            "armor": 107,
+            "context": "dungeon-heroic",
+            "bonusLists": [499, 524]
+        },
+        "legs": {
+            "id": 116032,
+            "name": "Legguards of Ravenous Assault",
+            "icon": "inv_pants_leather_draenorlfr_c_01",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 49,
+                "amount": 99
+            }, {
+                "stat": 73,
+                "amount": 184
+            }, {
+                "stat": 36,
+                "amount": 136
+            }, {
+                "stat": 7,
+                "amount": 275
+            }],
+            "armor": 169,
+            "context": "raid-finder",
+            "bonusLists": []
+        },
+        "feet": {
+            "id": 116026,
+            "name": "Bonebreaker Boots",
+            "icon": "inv_boot_mail_draenordungeon_c_01",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 49,
+                "amount": 74
+            }, {
+                "stat": 73,
+                "amount": 138
+            }, {
+                "stat": 61,
+                "amount": 79
+            }, {
+                "stat": 36,
+                "amount": 102
+            }, {
+                "stat": 7,
+                "amount": 207
+            }],
+            "armor": 133,
+            "context": "raid-finder",
+            "bonusLists": [42]
+        },
+        "finger1": {
+            "id": 118297,
+            "name": "Timeless Solium Band of the Assassin",
+            "icon": "inv_misc_6oring_redlv2",
+            "quality": 4,
+            "itemLevel": 680,
+            "tooltipParams": {
+                "enchant": 5284
+            },
+            "stats": [{
+                "stat": 40,
+                "amount": 93
+            }, {
+                "stat": 32,
+                "amount": 104
+            }, {
+                "stat": 3,
+                "amount": 150
+            }, {
+                "stat": 7,
+                "amount": 225
+            }],
+            "armor": 0,
+            "context": "quest-reward",
+            "bonusLists": []
+        },
+        "finger2": {
+            "id": 109761,
+            "name": "Bloodthorn Band",
+            "icon": "inv_60dungeon_ring4a",
+            "quality": 3,
+            "itemLevel": 630,
+            "tooltipParams": {
+                "enchant": 5284
+            },
+            "stats": [{
+                "stat": 49,
+                "amount": 54
+            }, {
+                "stat": 40,
+                "amount": 68
+            }, {
+                "stat": 3,
+                "amount": 94
+            }, {
+                "stat": 7,
+                "amount": 141
+            }],
+            "armor": 0,
+            "context": "dungeon-heroic",
+            "bonusLists": [524]
+        },
+        "trinket1": {
+            "id": 115156,
+            "name": "Primal Combatant's Medallion of Cruelty",
+            "icon": "inv_jewelry_trinketpvp_01",
+            "quality": 3,
+            "itemLevel": 620,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 32,
+                "amount": 145
+            }],
+            "armor": 0,
+            "context": "vendor",
+            "bonusLists": []
+        },
+        "trinket2": {
+            "id": 116289,
+            "name": "Bloodmaw's Tooth",
+            "icon": "inv_misc_trinket6oog_isoceles1",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 63,
+                "amount": 79
+            }, {
+                "stat": 32,
+                "amount": 175
+            }, {
+                "stat": 3,
+                "amount": 175
+            }],
+            "armor": 0,
+            "context": "raid-finder",
+            "bonusLists": [40]
+        },
+        "mainHand": {
+            "id": 116367,
+            "name": "Shield-Shatter Longbow",
+            "icon": "inv_bow_1h_draenorhonor_c_01",
+            "quality": 4,
+            "itemLevel": 640,
+            "tooltipParams": {},
+            "stats": [{
+                "stat": 49,
+                "amount": 107
+            }, {
+                "stat": 32,
+                "amount": 131
+            }, {
+                "stat": 3,
+                "amount": 184
+            }, {
+                "stat": 7,
+                "amount": 275
+            }],
+            "armor": 0,
+            "weaponInfo": {
+                "damage": {
+                    "min": 692,
+                    "max": 1287,
+                    "exactMin": 692.0,
+                    "exactMax": 1286.0
+                },
+                "weaponSpeed": 3.0,
+                "dps": 329.66666
+            },
+            "context": "raid-finder",
+            "bonusLists": []
+        }
+    },
+    "totalHonorableKills": 413
+}

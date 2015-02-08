@@ -1,0 +1,68 @@
+{
+    "id": 2144,
+    "title": "What a Long, Strange Trip It's Been",
+    "points": 50,
+    "description": "Complete the world events achievements listed below.",
+    "reward": "Rewards: Violet Proto-Drake",
+    "rewardItems": [{
+        "id": 44177,
+        "name": "Reins of the Violet Proto-Drake",
+        "icon": "ability_mount_drake_proto",
+        "quality": 4,
+        "itemLevel": 70,
+        "tooltipParams": {},
+        "stats": [],
+        "armor": 0,
+        "context": "",
+        "bonusLists": []
+    }],
+    "icon": "achievement_bg_masterofallbgs",
+    "criteria": [{
+        "id": 7553,
+        "description": "To Honor One's Elders",
+        "orderIndex": 0,
+        "max": 1
+    }, {
+        "id": 7561,
+        "description": "Fool For Love",
+        "orderIndex": 1,
+        "max": 1
+    }, {
+        "id": 9880,
+        "description": "Noble Gardener",
+        "orderIndex": 2,
+        "max": 1
+    }, {
+        "id": 7555,
+        "description": "For The Children",
+        "orderIndex": 3,
+        "max": 1
+    }, {
+        "id": 7556,
+        "description": "The Flame Warden",
+        "orderIndex": 0,
+        "max": 1
+    }, {
+        "id": 7563,
+        "description": "The Flame Warden",
+        "orderIndex": 1,
+        "max": 1
+    }, {
+        "id": 7564,
+        "description": "Brewmaster",
+        "orderIndex": 5,
+        "max": 1
+    }, {
+        "id": 7558,
+        "description": "Hallowed Be Thy Name",
+        "orderIndex": 6,
+        "max": 1
+    }, {
+        "id": 7566,
+        "description": "Merrymaker",
+        "orderIndex": 7,
+        "max": 1
+    }],
+    "accountWide": true,
+    "factionId": 2
+}

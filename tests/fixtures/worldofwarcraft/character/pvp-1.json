@@ -1,0 +1,68 @@
+{
+    "lastModified": 1420730703000,
+    "name": "Gaamen",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "class": 3,
+    "race": 4,
+    "gender": 1,
+    "level": 100,
+    "achievementPoints": 6690,
+    "thumbnail": "scarshield-legion/58/110348858-avatar.jpg",
+    "calcClass": "Y",
+    "pvp": {
+        "brackets": {
+            "ARENA_BRACKET_2v2": {
+                "slug": "2v2",
+                "rating": 0,
+                "weeklyPlayed": 0,
+                "weeklyWon": 0,
+                "weeklyLost": 0,
+                "seasonPlayed": 0,
+                "seasonWon": 0,
+                "seasonLost": 0
+            },
+            "ARENA_BRACKET_3v3": {
+                "slug": "3v3",
+                "rating": 0,
+                "weeklyPlayed": 0,
+                "weeklyWon": 0,
+                "weeklyLost": 0,
+                "seasonPlayed": 0,
+                "seasonWon": 0,
+                "seasonLost": 0
+            },
+            "ARENA_BRACKET_5v5": {
+                "slug": "5v5",
+                "rating": 0,
+                "weeklyPlayed": 0,
+                "weeklyWon": 0,
+                "weeklyLost": 0,
+                "seasonPlayed": 0,
+                "seasonWon": 0,
+                "seasonLost": 0
+            },
+            "ARENA_BRACKET_RBG": {
+                "slug": "rbg",
+                "rating": 0,
+                "weeklyPlayed": 0,
+                "weeklyWon": 0,
+                "weeklyLost": 0,
+                "seasonPlayed": 0,
+                "seasonWon": 0,
+                "seasonLost": 0
+            },
+            "UNKNOWN": {
+                "slug": "unknown",
+                "rating": 0,
+                "weeklyPlayed": 0,
+                "weeklyWon": 0,
+                "weeklyLost": 0,
+                "seasonPlayed": 0,
+                "seasonWon": 0,
+                "seasonLost": 0
+            }
+        }
+    },
+    "totalHonorableKills": 413
+}

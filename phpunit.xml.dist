@@ -13,7 +13,7 @@
     >
 
     <testsuites>
-        <testsuite name="SimilarWeb PHP API Library Test Suite">
+        <testsuite name="Battle.net PHP API Client Library Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
@@ -22,7 +22,8 @@
     <logging>
         <log type="coverage-html" target="coverage" charset="UTF-8"
              yui="true" highlight="false" lowUpperBound="50" highLowerBound="90"/>
-        <log type="coverage-clover" target="coverage.xml"/>
+        <log type="coverage-clover" target="coverage.xml" />
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="true" />
     </logging>
     -->
 

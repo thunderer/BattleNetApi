@@ -1,0 +1,2650 @@
+{
+    "lastModified": 1420794129000,
+    "name": "Forgotten Legacy",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "level": 25,
+    "side": 0,
+    "achievementPoints": 2105,
+    "emblem": {
+        "icon": 13,
+        "iconColor": "ffb1b8b1",
+        "border": 3,
+        "borderColor": "fff9cc30",
+        "backgroundColor": "ff003582"
+    },
+    "challenge": [{
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1182,
+            "name": "Auchindoun",
+            "slug": "auchindoun",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1175,
+            "name": "Bloodmaul Slag Mines",
+            "slug": "bloodmaul-slag-mines",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 3600000,
+                "hours": 1,
+                "minutes": 0,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 2100000,
+                "hours": 0,
+                "minutes": 35,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 1320000,
+                "hours": 0,
+                "minutes": 22,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 962,
+            "name": "Gate of the Setting Sun",
+            "slug": "gate-of-the-setting-sun",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 2700000,
+                "hours": 0,
+                "minutes": 45,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1320000,
+                "hours": 0,
+                "minutes": 22,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 780000,
+                "hours": 0,
+                "minutes": 13,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 713963,
+                "hours": 0,
+                "minutes": 11,
+                "seconds": 53,
+                "milliseconds": 963,
+                "isPositive": true
+            },
+            "date": "2014-02-25T16:54:41.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 728169,
+                "hours": 0,
+                "minutes": 12,
+                "seconds": 8,
+                "milliseconds": 169,
+                "isPositive": true
+            },
+            "date": "2013-01-11T23:15:48.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1208,
+            "name": "Grimrail Depot",
+            "slug": "grimrail-depot",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1195,
+            "name": "Iron Docks",
+            "slug": "iron-docks",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 994,
+            "name": "Mogu'shan Palace",
+            "slug": "mogushan-palace",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 2700000,
+                "hours": 0,
+                "minutes": 45,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1440000,
+                "hours": 0,
+                "minutes": 24,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 720000,
+                "hours": 0,
+                "minutes": 12,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 683493,
+                "hours": 0,
+                "minutes": 11,
+                "seconds": 23,
+                "milliseconds": 493,
+                "isPositive": true
+            },
+            "date": "2014-02-27T17:20:47.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Beast Mastery",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-beastmaster",
+                    "icon": "ability_hunter_bestialdiscipline",
+                    "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 716952,
+                "hours": 0,
+                "minutes": 11,
+                "seconds": 56,
+                "milliseconds": 952,
+                "isPositive": true
+            },
+            "date": "2013-01-14T22:04:53.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Assassination",
+                    "role": "DPS",
+                    "backgroundImage": "bg-rogue-assassination",
+                    "icon": "ability_rogue_eviscerate",
+                    "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.",
+                    "order": 0
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1001,
+            "name": "Scarlet Halls",
+            "slug": "scarlet-halls",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 2700000,
+                "hours": 0,
+                "minutes": 45,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1320000,
+                "hours": 0,
+                "minutes": 22,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 780000,
+                "hours": 0,
+                "minutes": 13,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 631459,
+                "hours": 0,
+                "minutes": 10,
+                "seconds": 31,
+                "milliseconds": 459,
+                "isPositive": true
+            },
+            "date": "2014-02-25T17:17:19.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 715659,
+                "hours": 0,
+                "minutes": 11,
+                "seconds": 55,
+                "milliseconds": 659,
+                "isPositive": true
+            },
+            "date": "2013-01-12T22:02:31.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1004,
+            "name": "Scarlet Monastery",
+            "slug": "scarlet-monastery",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 2700000,
+                "hours": 0,
+                "minutes": 45,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1320000,
+                "hours": 0,
+                "minutes": 22,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 780000,
+                "hours": 0,
+                "minutes": 13,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 667503,
+                "hours": 0,
+                "minutes": 11,
+                "seconds": 7,
+                "milliseconds": 503,
+                "isPositive": true
+            },
+            "date": "2014-02-25T17:46:32.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 726908,
+                "hours": 0,
+                "minutes": 12,
+                "seconds": 6,
+                "milliseconds": 908,
+                "isPositive": true
+            },
+            "date": "2013-01-27T22:29:24.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1007,
+            "name": "Scholomance",
+            "slug": "scholomance",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 3300000,
+                "hours": 0,
+                "minutes": 55,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1980000,
+                "hours": 0,
+                "minutes": 33,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 1140000,
+                "hours": 0,
+                "minutes": 19,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 1035320,
+                "hours": 0,
+                "minutes": 17,
+                "seconds": 15,
+                "milliseconds": 320,
+                "isPositive": true
+            },
+            "date": "2014-02-26T17:26:53.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Beast Mastery",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-beastmaster",
+                    "icon": "ability_hunter_bestialdiscipline",
+                    "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 1044634,
+                "hours": 0,
+                "minutes": 17,
+                "seconds": 24,
+                "milliseconds": 634,
+                "isPositive": true
+            },
+            "date": "2013-01-15T22:59:19.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 959,
+            "name": "Shado-Pan Monastery",
+            "slug": "shadopan-monastery",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 3600000,
+                "hours": 1,
+                "minutes": 0,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 2100000,
+                "hours": 0,
+                "minutes": 35,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 1260000,
+                "hours": 0,
+                "minutes": 21,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 999219,
+                "hours": 0,
+                "minutes": 16,
+                "seconds": 39,
+                "milliseconds": 219,
+                "isPositive": true
+            },
+            "date": "2014-02-26T18:04:50.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Beast Mastery",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-beastmaster",
+                    "icon": "ability_hunter_bestialdiscipline",
+                    "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 1198751,
+                "hours": 0,
+                "minutes": 19,
+                "seconds": 58,
+                "milliseconds": 751,
+                "isPositive": true
+            },
+            "date": "2013-01-22T20:45:27.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1176,
+            "name": "Shadowmoon Burial Grounds",
+            "slug": "shadowmoon-burial-grounds",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1011,
+            "name": "Siege of Niuzao Temple",
+            "slug": "siege-of-niuzao-temple",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 3000000,
+                "hours": 0,
+                "minutes": 50,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1800000,
+                "hours": 0,
+                "minutes": 30,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 1050000,
+                "hours": 0,
+                "minutes": 17,
+                "seconds": 30,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 869944,
+                "hours": 0,
+                "minutes": 14,
+                "seconds": 29,
+                "milliseconds": 944,
+                "isPositive": true
+            },
+            "date": "2014-02-27T16:57:28.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Beast Mastery",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-beastmaster",
+                    "icon": "ability_hunter_bestialdiscipline",
+                    "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Beast Mastery",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-beastmaster",
+                    "icon": "ability_hunter_bestialdiscipline",
+                    "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.",
+                    "order": 0
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 1043373,
+                "hours": 0,
+                "minutes": 17,
+                "seconds": 23,
+                "milliseconds": 373,
+                "isPositive": true
+            },
+            "date": "2013-01-21T21:12:33.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1209,
+            "name": "Skyreach",
+            "slug": "skyreach",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 961,
+            "name": "Stormstout Brewery",
+            "slug": "stormstout-brewery",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 2700000,
+                "hours": 0,
+                "minutes": 45,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1260000,
+                "hours": 0,
+                "minutes": 21,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 720000,
+                "hours": 0,
+                "minutes": 12,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 641108,
+                "hours": 0,
+                "minutes": 10,
+                "seconds": 41,
+                "milliseconds": 108,
+                "isPositive": true
+            },
+            "date": "2014-02-25T18:28:11.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 693190,
+                "hours": 0,
+                "minutes": 11,
+                "seconds": 33,
+                "milliseconds": 190,
+                "isPositive": true
+            },
+            "date": "2013-01-25T22:20:53.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Scarshield Legion",
+            "slug": "scarshield-legion",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 960,
+            "name": "Temple of the Jade Serpent",
+            "slug": "temple-of-the-jade-serpent",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 2700000,
+                "hours": 0,
+                "minutes": 45,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 1500000,
+                "hours": 0,
+                "minutes": 25,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 900000,
+                "hours": 0,
+                "minutes": 15,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": [{
+            "ranking": 1,
+            "time": {
+                "time": 816756,
+                "hours": 0,
+                "minutes": 13,
+                "seconds": 36,
+                "milliseconds": 756,
+                "isPositive": true
+            },
+            "date": "2014-02-26T17:01:34.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "character": {
+                    "name": "Kyrenisah",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 1,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 21330,
+                    "thumbnail": "scarshield-legion/227/102075107-avatar.jpg",
+                    "spec": {
+                        "name": "Protection",
+                        "role": "TANK",
+                        "backgroundImage": "bg-warrior-protection",
+                        "icon": "ability_warrior_defensivestance",
+                        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Protection",
+                    "role": "TANK",
+                    "backgroundImage": "bg-warrior-protection",
+                    "icon": "ability_warrior_defensivestance",
+                    "description": "A stalwart protector who uses a shield to safeguard herself and her allies.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Kirg",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 5,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 15980,
+                    "thumbnail": "scarshield-legion/236/101919980-avatar.jpg",
+                    "spec": {
+                        "name": "Discipline",
+                        "role": "HEALING",
+                        "backgroundImage": "bg-priest-discipline",
+                        "icon": "spell_holy_powerwordshield",
+                        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                        "order": 0
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Discipline",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-priest-discipline",
+                    "icon": "spell_holy_powerwordshield",
+                    "description": "Uses magic to shield allies from taking damage as well as heal their wounds.",
+                    "order": 0
+                }
+            }, {
+                "character": {
+                    "name": "Arovia",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 11,
+                    "gender": 1,
+                    "level": 100,
+                    "achievementPoints": 20810,
+                    "thumbnail": "scarshield-legion/112/102065264-avatar.jpg",
+                    "spec": {
+                        "name": "Survival",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-survival",
+                        "icon": "ability_hunter_camouflage",
+                        "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                        "order": 2
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Mahavo",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 2,
+                    "race": 1,
+                    "gender": 0,
+                    "level": 90,
+                    "achievementPoints": 0,
+                    "thumbnail": "scarshield-legion/97/100139617-avatar.jpg",
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Retribution",
+                    "role": "DPS",
+                    "backgroundImage": "bg-paladin-retribution",
+                    "icon": "spell_holy_auraoflight",
+                    "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.",
+                    "order": 2
+                }
+            }, {
+                "character": {
+                    "name": "Narkill",
+                    "realm": "Defias Brotherhood",
+                    "battlegroup": "Glutsturm / Emberstorm",
+                    "class": 3,
+                    "race": 3,
+                    "gender": 0,
+                    "level": 100,
+                    "achievementPoints": 17540,
+                    "thumbnail": "scarshield-legion/162/101732770-avatar.jpg",
+                    "spec": {
+                        "name": "Marksmanship",
+                        "role": "DPS",
+                        "backgroundImage": "bg-hunter-marksman",
+                        "icon": "ability_hunter_focusedaim",
+                        "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+                        "order": 1
+                    },
+                    "guild": "Vanity",
+                    "guildRealm": "Defias Brotherhood"
+                },
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }, {
+            "ranking": 2,
+            "time": {
+                "time": 863203,
+                "hours": 0,
+                "minutes": 14,
+                "seconds": 23,
+                "milliseconds": 203,
+                "isPositive": true
+            },
+            "date": "2013-01-21T19:42:08.000Z",
+            "medal": "GOLD",
+            "faction": "alliance",
+            "isRecurring": false,
+            "members": [{
+                "spec": {
+                    "name": "Blood",
+                    "role": "TANK",
+                    "backgroundImage": "bg-deathknight-blood",
+                    "icon": "spell_deathknight_bloodpresence",
+                    "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.",
+                    "order": 0
+                }
+            }, {
+                "spec": {
+                    "name": "Restoration",
+                    "role": "HEALING",
+                    "backgroundImage": "bg-shaman-restoration",
+                    "icon": "spell_nature_magicimmunity",
+                    "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }, {
+                "spec": {
+                    "name": "Fury",
+                    "role": "DPS",
+                    "backgroundImage": "bg-warrior-fury",
+                    "icon": "ability_warrior_innerrage",
+                    "description": "A furious berserker wielding a weapon in each hand, unleashing a flurry of attacks to carve his opponents to pieces.",
+                    "order": 1
+                }
+            }, {
+                "spec": {
+                    "name": "Survival",
+                    "role": "DPS",
+                    "backgroundImage": "bg-hunter-survival",
+                    "icon": "ability_hunter_camouflage",
+                    "description": "A rugged tracker who favors using animal venom, explosives and traps as deadly weapons.",
+                    "order": 2
+                }
+            }]
+        }]
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1279,
+            "name": "The Everbloom",
+            "slug": "the-everbloom",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }, {
+        "realm": {
+            "name": "Defias Brotherhood",
+            "slug": "defias-brotherhood",
+            "battlegroup": "Glutsturm / Emberstorm",
+            "locale": "en_GB",
+            "timezone": "Europe/Paris",
+            "connected_realms": ["scarshield-legion", "the-venture-co", "defias-brotherhood", "sporeggar", "ravenholdt"]
+        },
+        "map": {
+            "id": 1358,
+            "name": "Upper Blackrock Spire",
+            "slug": "upper-blackrock-spire",
+            "hasChallengeMode": true,
+            "bronzeCriteria": {
+                "time": 30000000,
+                "hours": 8,
+                "minutes": 20,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "silverCriteria": {
+                "time": 15000000,
+                "hours": 4,
+                "minutes": 10,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            },
+            "goldCriteria": {
+                "time": 7500000,
+                "hours": 2,
+                "minutes": 5,
+                "seconds": 0,
+                "milliseconds": 0,
+                "isPositive": true
+            }
+        },
+        "groups": []
+    }]
+}

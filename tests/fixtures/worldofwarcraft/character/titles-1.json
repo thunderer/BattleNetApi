@@ -1,0 +1,49 @@
+{
+    "lastModified": 1420730703000,
+    "name": "Gaamen",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "class": 3,
+    "race": 4,
+    "gender": 1,
+    "level": 100,
+    "achievementPoints": 6690,
+    "thumbnail": "scarshield-legion/58/110348858-avatar.jpg",
+    "calcClass": "Y",
+    "titles": [{
+        "id": 81,
+        "name": "%s the Seeker"
+    }, {
+        "id": 75,
+        "name": "Flame Warden %s"
+    }, {
+        "id": 137,
+        "name": "Matron %s"
+    }, {
+        "id": 140,
+        "name": "%s of the Nightfall"
+    }, {
+        "id": 143,
+        "name": "%s Jenkins"
+    }, {
+        "id": 155,
+        "name": "%s the Noble"
+    }, {
+        "id": 175,
+        "name": "%s the Kingslayer"
+    }, {
+        "id": 189,
+        "name": "Assistant Professor %s"
+    }, {
+        "id": 228,
+        "name": "Dragonslayer %s"
+    }, {
+        "id": 351,
+        "name": "%s the Hordebreaker"
+    }, {
+        "id": 394,
+        "name": "%s the Commandojack",
+        "selected": true
+    }],
+    "totalHonorableKills": 413
+}

@@ -1,0 +1,33 @@
+{
+    "lastModified": 1420730703000,
+    "name": "Gaamen",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "class": 3,
+    "race": 4,
+    "gender": 1,
+    "level": 100,
+    "achievementPoints": 6690,
+    "thumbnail": "scarshield-legion/58/110348858-avatar.jpg",
+    "calcClass": "Y",
+    "petSlots": [{
+        "slot": 1,
+        "battlePetGuid": "0000000000B237CF",
+        "isEmpty": false,
+        "isLocked": false,
+        "abilities": [113, 339, 319]
+    }, {
+        "slot": 2,
+        "battlePetGuid": "0000000000B237CE",
+        "isEmpty": false,
+        "isLocked": false,
+        "abilities": [113, 155, 172]
+    }, {
+        "slot": 3,
+        "battlePetGuid": "0000000000B237CD",
+        "isEmpty": false,
+        "isLocked": false,
+        "abilities": [113, 310, 179]
+    }],
+    "totalHonorableKills": 413
+}

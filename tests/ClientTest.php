@@ -8,7 +8,7 @@ use Thunder\BlizzardApi\Entity\Diablo3\Artisan;
 use Thunder\BlizzardApi\Entity\Diablo3\Career;
 use Thunder\BlizzardApi\Entity\Diablo3\Follower;
 use Thunder\BlizzardApi\Entity\Diablo3\Hero;
-use Thunder\BlizzardApi\Entity\Diablo3\Item;
+use Thunder\BlizzardApi\Entity\Diablo3\Item as Diablo3Item;
 use Thunder\BlizzardApi\Application;
 use Thunder\BlizzardApi\Client;
 use Thunder\BlizzardApi\Connector\MockConnector;
@@ -17,6 +17,21 @@ use Thunder\BlizzardApi\Entity\Starcraft2\LadderEntries;
 use Thunder\BlizzardApi\Entity\Starcraft2\Ladders;
 use Thunder\BlizzardApi\Entity\Starcraft2\Profile;
 use Thunder\BlizzardApi\Entity\Starcraft2\Rewards;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Achievement;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\BattlePetAbility;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\BattlePetSpecies;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\BattlePetStats;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Character;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Data\CharacterClass;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Data\CharacterRace;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Data\ClassTalents;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Guild;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Item as WorldOfWarcraftItem;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\ItemSet;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Quest;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Realm;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Recipe;
+use Thunder\BlizzardApi\Entity\WorldOfWarcraft\Spell;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
     {
@@ -64,7 +79,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
                 $this->assertEquals('Thunderer', $response->getName());
                 }, 'diablo3/hero.json'),
 
-            array('getDiablo3Item', array('that-long-string'), function(Item $response) {
+            array('getDiablo3Item', array('that-long-string'), function(Diablo3Item $response) {
                 $this->assertEquals('Tal Rasha\'s Guise of Wisdom', $response->getName());
                 $this->assertCount(15, $response->getAttributesRaw());
                 }, 'diablo3/item.json'),
@@ -155,53 +170,177 @@ class ClientTest extends \PHPUnit_Framework_TestCase
                 }, 'starcraft2/rewards.json'),
 
             // World Of Warcraft API
-            // achievement
+            array('getWorldOfWarcraftAchievement', array(2144), function(Achievement $response) {
+                $this->assertEquals(2144, $response->getId());
+                }, 'worldofwarcraft/achievement-2144.json'),
             // auction data status
-            // battlepet - abilities
-            // battlepet - species
-            // battlepet - stats
+
+            array('getWorldOfWarcraftBattlePetAbilities', array(640), function(BattlePetAbility $response) {
+                $this->assertEquals(640, $response->getId());
+                }, 'worldofwarcraft/battlepet/abilities-640.json'),
+            array('getWorldOfWarcraftBattlePetSpecies', array(258), function(BattlePetSpecies $response) {
+                $this->assertEquals(258, $response->getSpeciesId());
+                $this->assertCount(6, $response->getAbilities());
+                }, 'worldofwarcraft/battlepet/species-258.json'),
+            array('getWorldOfWarcraftBattlePetStats', array(258, 25, 5, 4), function(BattlePetStats $response) {
+                $this->assertEquals(258, $response->getSpeciesId());
+                }, 'worldofwarcraft/battlepet/stats-258-25-5-4.json'),
+
             // challenge - realm leaderboard
             // challenge - region leaderboard
-            // character - profile
-            // character - achievements
-            // character - appearance
-            // character - feed
-            // character - guild
+
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->assertEquals('Gaamen', $response->getName());
+                $this->assertEquals(413, $response->getTotalHonorableKills());
+                }, 'worldofwarcraft/character/profile-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/achievements-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/appearance-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/feed-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/guild-1.json'),
+            // FIXME: No hunter pets data in fixtures!
             // character - hunter pets
-            // character - items
-            // character - mounts
-            // character - pets
-            // character - pet slots
-            // character - progression
-            // character - pvp
-            // character - quests
-            // character - reputation
-            // character - stats
-            // character - talents
-            // character - titles
-            // character - audit
-            // item - item
-            // item - item set
-            // guild - profile
-            // guild - members
-            // guild - achievements
-            // guild - news
-            // guild - challenge
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/items-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/mounts-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/pets-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/pet-slots-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/progression-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/pvp-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/quests-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/reputation-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/stats-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/talents-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/titles-1.json'),
+            array('getWorldOfWarcraftCharacterProfile', array('realm', 'name', array()), function(Character $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/character/audit-1.json'),
+
+            array('getWorldOfWarcraftItem', array(18803), function(WorldOfWarcraftItem $response) {
+                $this->assertEquals(18803, $response->getId());
+                $this->assertEquals(true, $response->getIsUpgradable());
+                }, 'worldofwarcraft/item/item-18803.json'),
+            array('getWorldOfWarcraftItemSet', array(1060), function(ItemSet $response) {
+                $this->assertEquals(1060, $response->getId());
+                $this->assertCount(2, $response->getBonuses());
+                $this->assertCount(5, $response->getItems());
+                }, 'worldofwarcraft/item/set-1060.json'),
+
+            array('getWorldOfWarcraftGuildProfile', array('Defias Brotherhood', 'Forgotten Legacy', array()), function(Guild $response) {
+                $this->assertEquals('Forgotten Legacy', $response->getName());
+                $this->assertEquals('Defias Brotherhood', $response->getRealm());
+                }, 'worldofwarcraft/guild/profile-1.json'),
+            array('getWorldOfWarcraftGuildProfile', array('Defias Brotherhood', 'Forgotten Legacy', array()), function(Guild $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/guild/members-1.json'),
+            array('getWorldOfWarcraftGuildProfile', array('Defias Brotherhood', 'Forgotten Legacy', array()), function(Guild $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/guild/achievements-1.json'),
+            array('getWorldOfWarcraftGuildProfile', array('Defias Brotherhood', 'Forgotten Legacy', array()), function(Guild $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/guild/news-1.json'),
+            array('getWorldOfWarcraftGuildProfile', array('Defias Brotherhood', 'Forgotten Legacy', array()), function(Guild $response) {
+                $this->markTestIncomplete();
+                }, 'worldofwarcraft/guild/challenge-1.json'),
+
             // leaderboards
-            // quest
-            // realm status
-            // recipe
-            // spell
-            // data - battlegroups
-            // data - character races
-            // data - character classes
-            // data - character achievements
-            // data - guild rewards
-            // data - guild perks
-            // data - guild achievements
-            // data - item classes
-            // data - talents
-            // data - pet types
+            array('getWorldOfWarcraftQuest', array(13146), function(Quest $response) {
+                $this->assertEquals(13146, $response->getId());
+                $this->assertEquals(77, $response->getRequiredLevel());
+                $this->assertEquals(80, $response->getLevel());
+                }, 'worldofwarcraft/quest-13146.json'),
+            array('getWorldOfWarcraftRealmStatus', array(8056), function(array $response) {
+                /** @var $response Realm[] */
+                $this->assertCount(246, $response);
+                $realm = $response[0];
+                $this->assertEquals('pvp', $realm->getType());
+                $this->assertEquals('aegwynn', $realm->getSlug());
+                $this->assertCount(5, $realm->getConnectedRealms());
+                }, 'worldofwarcraft/realm-status.json'),
+            array('getWorldOfWarcraftRecipe', array(33994), function(Recipe $response) {
+                $this->assertEquals(33994, $response->getId());
+                }, 'worldofwarcraft/recipe-33994.json'),
+            array('getWorldOfWarcraftSpell', array(8056), function(Spell $response) {
+                $this->assertEquals(8056, $response->getId());
+                }, 'worldofwarcraft/spell-8056.json'),
+
+            array('getWorldOfWarcraftDataBattlegroups', array(8056), function(array $response) {
+                $this->assertCount(9, $response);
+                }, 'worldofwarcraft/data/battlegroups.json'),
+            array('getWorldOfWarcraftDataCharacterRaces', array(), function(array $response) {
+                $this->assertCount(24, $response);
+                /** @var $race CharacterRace */
+                $race = $response[0];
+                $this->assertEquals(1, $race->getId());
+                $this->assertEquals(1, $race->getMask());
+                $this->assertEquals('Human', $race->getName());
+                $this->assertEquals('alliance', $race->getSide());
+                }, 'worldofwarcraft/data/character-races.json'),
+            array('getWorldOfWarcraftDataCharacterClasses', array(), function(array $response) {
+                $this->assertCount(11, $response);
+                /** @var $class CharacterClass */
+                $class = $response[0];
+                $this->assertEquals('focus', $class->getPowerType());
+                $this->assertEquals(3, $class->getId());
+                $this->assertEquals(4, $class->getMask());
+                $this->assertEquals('Hunter', $class->getName());
+                }, 'worldofwarcraft/data/character-classes.json'),
+            array('getWorldOfWarcraftDataCharacterAchievements', array(), function(array $response) {
+                $this->assertCount(62, $response);
+                }, 'worldofwarcraft/data/character-achievements.json'),
+            array('getWorldOfWarcraftDataGuildRewards', array(), function(array $response) {
+                $this->assertCount(62, $response);
+                }, 'worldofwarcraft/data/guild-rewards.json'),
+            array('getWorldOfWarcraftDataGuildPerks', array(), function(array $response) {
+                $this->assertCount(6, $response);
+                }, 'worldofwarcraft/data/guild-perks.json'),
+            array('getWorldOfWarcraftDataGuildAchievements', array(), function(array $response) {
+                $this->assertCount(7, $response);
+                }, 'worldofwarcraft/data/guild-achievements.json'),
+            array('getWorldOfWarcraftDataItemClasses', array(), function(array $response) {
+                $this->assertCount(15, $response);
+                }, 'worldofwarcraft/data/item-classes.json'),
+            array('getWorldOfWarcraftDataPetTypes', array(), function(array $response) {
+                $this->assertCount(10, $response);
+                }, 'worldofwarcraft/data/pet-types.json'),
+            array('getWorldOfWarcraftDataTalents', array(), function(array $response) {
+                $this->assertCount(11, $response);
+                /** @var $talents ClassTalents */
+                $talents = $response['warrior'];
+                $this->assertEquals('warrior', $talents->getClass());
+                $this->assertCount(45, $talents->getGlyphs());
+                $this->assertCount(3, $talents->getSpecs());
+                $this->assertCount(0, $talents->getPetSpecs());
+                $this->assertCount(27, $talents->getTalents());
+                }, 'worldofwarcraft/data/talents.json'),
 
             // Community OAuth Profile
             // starcraft2

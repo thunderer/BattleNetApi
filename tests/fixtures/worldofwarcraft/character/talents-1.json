@@ -1,0 +1,150 @@
+{
+    "lastModified": 1420730703000,
+    "name": "Gaamen",
+    "realm": "Defias Brotherhood",
+    "battlegroup": "Glutsturm / Emberstorm",
+    "class": 3,
+    "race": 4,
+    "gender": 1,
+    "level": 100,
+    "achievementPoints": 6690,
+    "thumbnail": "scarshield-legion/58/110348858-avatar.jpg",
+    "calcClass": "Y",
+    "talents": [{
+        "selected": true,
+        "talents": [{
+            "tier": 0,
+            "column": 2,
+            "spell": {
+                "id": 118675,
+                "name": "Crouching Tiger, Hidden Chimaera",
+                "icon": "ability_hunter_pet_chimera",
+                "description": "Reduces the cooldown of Disengage by 10 sec, and the cooldown of Deterrence by 60 sec.",
+                "castTime": "Passive"
+            }
+        }, {
+            "tier": 1,
+            "column": 1,
+            "spell": {
+                "id": 19386,
+                "name": "Wyvern Sting",
+                "icon": "inv_spear_02",
+                "description": "A stinging shot that puts the target to sleep, incapacitating them for 30 sec.  Any damage will cancel the effect.\n\n\n\nUsable while moving.",
+                "range": "40 yd range",
+                "castTime": "1.5 sec cast",
+                "cooldown": "45 sec cooldown"
+            }
+        }, {
+            "tier": 2,
+            "column": 2,
+            "spell": {
+                "id": 109212,
+                "name": "Spirit Bond",
+                "icon": "ability_druid_demoralizingroar",
+                "description": "While your pet is active, you and your pet will regenerate 2% of total health every 2 sec.",
+                "castTime": "Passive"
+            }
+        }, {
+            "tier": 3,
+            "column": 1,
+            "spell": {
+                "id": 120679,
+                "name": "Dire Beast",
+                "icon": "ability_hunter_sickem",
+                "description": "Summons a powerful wild beast to attack your target for 15 sec. Each time the beast deals damage, you will gain 2 Focus.",
+                "range": "40 yd range",
+                "castTime": "Instant",
+                "cooldown": "30 sec cooldown"
+            }
+        }, {
+            "tier": 4,
+            "column": 1,
+            "spell": {
+                "id": 130392,
+                "name": "Blink Strikes",
+                "icon": "spell_arcane_arcane04",
+                "description": "Your pet's Basic Attacks deal 50% increased damage, can now be used from 30 yards away, and will instantly teleport them behind their target.",
+                "range": "100 yd range",
+                "castTime": "Passive"
+            }
+        }, {
+            "tier": 5,
+            "column": 2,
+            "spell": {
+                "id": 120360,
+                "name": "Barrage",
+                "icon": "ability_hunter_rapidregeneration",
+                "description": "Rapidly fires a spray of shots for 2.88 sec, dealing 23,932 Physical damage to the enemy target and an average of 11,966 Physical damage to each other enemy target in front of you.  Usable while moving.",
+                "range": "40 yd range",
+                "powerCost": "60 Focus",
+                "castTime": "Channeled",
+                "cooldown": "20 sec cooldown"
+            }
+        }, {
+            "tier": 6,
+            "column": 0,
+            "spell": {
+                "id": 162534,
+                "name": "Exotic Munitions",
+                "icon": "inv_ammo_bullet_07",
+                "description": "Allows you to modify your ranged weapon to use exotic munitions:\n\n\n\nIncendiary Ammo\n\nArms your ranged weapon with exotic ammunition that lasts for 1 hour. Each autoshot deals 723 additional Fire damage to all enemies within 8 yards of the initial target.\n\n\n\nPoisoned Ammo\n\nArms your ranged weapon with exotic ammunition that lasts for 1 hour. Each autoshot deals 1,104 additional Nature damage over 16 sec. When this effect is refreshed, the remaining damage will be added to the new effect.\n\n\n\nFrozen Ammo\n\nArms your ranged weapon with exotic ammunition that lasts for 1 hour. Each autoshot deals 535 additional Frost damage and reduces the target's movement speed by 50% for 4 sec.\n\n\n\nOnly one exotic munition can be active at one time.",
+                "castTime": "Passive"
+            }
+        }],
+        "glyphs": {
+            "major": [{
+                "glyph": 677,
+                "item": 0,
+                "name": "Glyph of Chimaera Shot",
+                "icon": "ability_hunter_chimerashot2"
+            }, {
+                "glyph": 353,
+                "item": 0,
+                "name": "Glyph of Liberation",
+                "icon": "achievement_bg_returnxflags_def_wsg"
+            }, {
+                "glyph": 365,
+                "item": 0,
+                "name": "Glyph of Pathfinding",
+                "icon": "ability_hunter_pathfinding2"
+            }],
+            "minor": [{
+                "glyph": 1022,
+                "item": 85683,
+                "name": "Glyph of Aspect of the Beast",
+                "icon": "ability_mount_pinktiger"
+            }, {
+                "glyph": 692,
+                "item": 45732,
+                "name": "Glyph of Aspect of the Cheetah",
+                "icon": "ability_mount_jungletiger"
+            }, {
+                "glyph": 351,
+                "item": 42897,
+                "name": "Glyph of Aspects",
+                "icon": "ability_hunter_aspectmastery"
+            }]
+        },
+        "spec": {
+            "name": "Marksmanship",
+            "role": "DPS",
+            "backgroundImage": "bg-hunter-marksman",
+            "icon": "ability_hunter_focusedaim",
+            "description": "A master archer or sharpshooter who excels in bringing down enemies from afar.",
+            "order": 1
+        },
+        "calcTalent": "2121120",
+        "calcSpec": "Z",
+        "calcGlyph": "ObhoNa"
+    }, {
+        "talents": [],
+        "glyphs": {
+            "major": [],
+            "minor": []
+        },
+        "calcTalent": "",
+        "calcSpec": "",
+        "calcGlyph": ""
+    }],
+    "totalHonorableKills": 413
+}
